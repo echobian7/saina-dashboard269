@@ -1,0 +1,15 @@
+# Python 脚本及运行产物（仅用于本地更新，不需要部署）
+*.py
+*.pyc
+*.log
+*.bat
+__pycache__/
+.env
+
+# 原始数据文件（保留 latest 版本即可）
+feishu_data_raw.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
