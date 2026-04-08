@@ -1,0 +1,16 @@
+# Python 依赖（本地运行，不排除脚本本身）
+*.pyc
+__pycache__/
+.env
+
+# 日志和本地调度文件
+*.log
+*.bat
+
+# 原始数据（保留 latest 版本）
+feishu_data_raw.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini

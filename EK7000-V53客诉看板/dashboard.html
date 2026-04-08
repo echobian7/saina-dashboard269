@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<script>if(localStorage.getItem('saina_auth')!=='e4d81e98ab46fb41d0215e8d1b057612b4687b0fab2bd89136fb5a469f111551')location.replace('../index.html');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EK7000-V53客诉看板</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0d1117;
+    color: #c9d1d9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    min-height: 100vh;
+    padding: 20px 24px 32px;
+  }
+  .header { margin-bottom: 20px; }
+  .header h1 { font-size: 22px; font-weight: 700; color: #e6edf3; letter-spacing: .5px; }
+  .header .sub { font-size: 12px; color: #6e7681; margin-top: 4px; display: flex; align-items: center; gap: 12px; }
+  .live-dot { width: 6px; height: 6px; border-radius: 50%; background: #3fb950; display: inline-block; }
+  .update-time { color: #8b949e; font-size: 12px; }
+  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 16px; }
+  .kpi-card {
+    background: #161b22; border: 1px solid #21262d; border-radius: 10px;
+    padding: 18px 22px; position: relative; overflow: hidden;
+  }
+  .kpi-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; }
+  .kpi-card.blue::before  { background: #58a6ff; }
+  .kpi-card.green::before { background: #3fb950; }
+  .kpi-card.yellow::before{ background: #d29922; }
+  .kpi-card.red::before   { background: #f85149; }
+  .kpi-label { font-size: 12px; color: #8b949e; margin-bottom: 10px; }
+  .kpi-value { font-size: 42px; font-weight: 700; line-height: 1; }
+  .kpi-card.blue  .kpi-value { color: #58a6ff; }
+  .kpi-card.green .kpi-value { color: #3fb950; }
+  .kpi-card.yellow .kpi-value { color: #d29922; }
+  .kpi-card.red   .kpi-value { color: #f85149; }
+  .kpi-sub { font-size: 11px; color: #6e7681; margin-top: 6px; }
+  .panel { background: #161b22; border: 1px solid #21262d; border-radius: 10px; padding: 18px 20px; margin-bottom: 14px; }
+  .panel-title { font-size: 13px; font-weight: 600; color: #c9d1d9; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+  .panel-title .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .panel-title .dot.blue   { background: #58a6ff; }
+  .panel-title .dot.green  { background: #3fb950; }
+  .panel-title .dot.yellow { background: #d29922; }
+  .panel-title .dot.red    { background: #f85149; }
+  .panel-title .dot.orange { background: #e3b341; }
+  #trendChart { width: 100%; height: 280px; }
+  .mid-row { display: grid; grid-template-columns: 1fr 1.5fr; gap: 14px; margin-bottom: 14px; }
+  #statusChart  { width: 100%; height: 280px; }
+  #categoryChart{ width: 100%; height: 280px; }
+  .s-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .s-table thead tr { border-bottom: 1px solid #21262d; }
+  .s-table th { text-align: left; padding: 8px 12px; color: #8b949e; font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: .5px; }
+  .s-table td { padding: 9px 12px; color: #c9d1d9; border-bottom: 1px solid #161b22; vertical-align: middle; }
+  .s-table tbody tr:hover { background: #1c2128; }
+  .s-table tbody tr:last-child td { border-bottom: none; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+  .snap-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .snap-table th { text-align: left; padding: 8px 14px; color: #8b949e; font-size: 11px; font-weight: 500; border-bottom: 1px solid #21262d; letter-spacing: .5px; }
+  .snap-table td { padding: 9px 14px; border-bottom: 1px solid #1c2128; color: #c9d1d9; }
+  .snap-table tr:last-child td { border-bottom: none; }
+  .snap-table tr:hover td { background: #1c2128; }
+  .snap-table .today-row td { background: #1a2535; }
+  .snap-table td.num-blue   { color: #58a6ff; font-weight: 600; }
+  .snap-table td.num-green  { color: #3fb950; font-weight: 600; }
+  .snap-table td.num-yellow { color: #d29922; font-weight: 600; }
+  .snap-table td.num-red    { color: #f85149; font-weight: 600; }
+  .refresh-btn { float: right; background: #21262d; border: 1px solid #30363d; color: #8b949e; padding: 4px 12px; border-radius: 6px; cursor: pointer; font-size: 11px; transition: all .2s; margin-top: -2px; }
+  .refresh-btn:hover { background: #30363d; color: #c9d1d9; }
+  .loading { opacity: .5; pointer-events: none; }
+  .empty-tip { text-align: center; color: #3fb950; padding: 20px; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 id="dashTitle">EK7000-V53客诉看板</h1>
+  <div class="sub">
+    <span><span class="live-dot"></span></span>
+    <span>数据源：飞书多维表格</span>
+    <span class="update-time" id="updateTime">加载中…</span>
+  </div>
+</div>
+
+<div class="kpi-row">
+  <div class="kpi-card blue">
+    <div class="kpi-label">总记录数</div>
+    <div class="kpi-value" id="kpiTotal">—</div>
+    <div class="kpi-sub" id="kpiTotalSub"></div>
+  </div>
+  <div class="kpi-card green">
+    <div class="kpi-label">已解决</div>
+    <div class="kpi-value" id="kpiDone">—</div>
+    <div class="kpi-sub" id="kpiDoneSub"></div>
+  </div>
+  <div class="kpi-card yellow">
+    <div class="kpi-label">处理中</div>
+    <div class="kpi-value" id="kpiActive">—</div>
+    <div class="kpi-sub" id="kpiActiveSub"></div>
+  </div>
+  <div class="kpi-card red">
+    <div class="kpi-label" id="kpiTopLabel">最高优先级待处理</div>
+    <div class="kpi-value" id="kpiTop">—</div>
+    <div class="kpi-sub" id="kpiTopSub"></div>
+  </div>
+</div>
+
+<div class="panel">
+  <div class="panel-title">
+    <span class="dot blue"></span>客诉趋势（每日快照）
+    <button class="refresh-btn" id="refreshBtn" onclick="refreshData()">↻ 刷新数据</button>
+  </div>
+  <div id="trendChart"></div>
+</div>
+
+<div class="mid-row">
+  <div class="panel">
+    <div class="panel-title"><span class="dot blue"></span>状态分布（最新）</div>
+    <div id="statusChart"></div>
+  </div>
+  <div class="panel">
+    <div class="panel-title"><span class="dot orange"></span>问题归类 TOP（最新）</div>
+    <div id="categoryChart"></div>
+  </div>
+</div>
+
+<div class="panel">
+  <div class="panel-title"><span class="dot red"></span><span id="topTableTitle">最高优先级待处理问题</span></div>
+  <table class="s-table">
+    <thead>
+      <tr>
+        <th style="width:70px">编号</th>
+        <th style="min-width:160px">问题</th>
+        <th style="width:90px">状态</th>
+        <th style="width:100px">归类</th>
+        <th style="width:110px">严重程度</th>
+        <th>最新跟进备注</th>
+      </tr>
+    </thead>
+    <tbody id="topTableBody">
+      <tr><td colspan="6" style="text-align:center;padding:20px;color:#8b949e;">加载中…</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="panel">
+  <div class="panel-title"><span class="dot yellow"></span>每日快照记录</div>
+  <table class="snap-table">
+    <thead>
+      <tr><th>日期</th><th>总量</th><th>已解决</th><th>待处理</th><th id="snapTopLabel">最高优先级待处理</th></tr>
+    </thead>
+    <tbody id="snapBody">
+      <tr><td colspan="5" style="text-align:center;padding:20px;color:#8b949e;">加载中…</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+// ── Snapshot persistence ──────────────────────────────
+const SNAP_KEY = 'feishu_dash_snaps_v2';
+function loadSnaps() { try { return JSON.parse(localStorage.getItem(SNAP_KEY) || '[]'); } catch(e) { return []; } }
+function saveSnaps(s) { localStorage.setItem(SNAP_KEY, JSON.stringify(s)); }
+function upsertSnap(date, d) {
+  const s = loadSnaps();
+  const i = s.findIndex(x => x.date === date);
+  if (i >= 0) s[i] = { date, ...d }; else s.push({ date, ...d });
+  s.sort((a,b) => b.date.localeCompare(a.date));
+  saveSnaps(s); return s;
+}
+
+// ── Data analysis ─────────────────────────────────────
+function xv(v) {
+  if (!v) return '';
+  if (typeof v === 'string') return v;
+  if (Array.isArray(v)) return v.map(x => typeof x==='object'?(x.text||x.name||''):x).join('');
+  if (typeof v === 'object') return v.text||v.name||v.value||'';
+  return String(v);
+}
+
+function analyze(records, fieldMap, doneVals, topLevel) {
+  const today = new Date().toISOString().slice(0,10);
+  let total = records.length, done = 0, active = 0, top = 0;
+  const statusMap={}, catMap={}, topList=[];
+
+  for (const r of records) {
+    const f = r.fields || {};
+    const status   = xv(f[fieldMap.status]   || f.status   || '');
+    const level    = xv(f[fieldMap.level]    || f.level    || '');
+    const cat      = xv(f[fieldMap.category] || f.category || '');
+    const content  = xv(f[fieldMap.content]  || f.content  || '');
+    const severity = xv(f[fieldMap.severity] || f.severity || '');
+    const retest   = xv(f[fieldMap.retest]   || f.retest   || '');
+    const no_      = xv(f[fieldMap.no]       || f.no       || '');
+
+    statusMap[status||'未填写'] = (statusMap[status||'未填写']||0)+1;
+    if (cat) catMap[cat] = (catMap[cat]||0)+1;
+
+    if (doneVals.includes(status)) done++; else active++;
+
+    if (level === topLevel && !doneVals.includes(status)) {
+      top++;
+      topList.push({ no: no_, content: String(content).slice(0,50), status, cat, severity, retest: String(retest).slice(0,80) });
+    }
+  }
+  return { total, done, active, top, statusMap, catSorted: Object.entries(catMap).sort((a,b)=>b[1]-a[1]), topList, date: today };
+}
+
+// ── Charts ────────────────────────────────────────────
+let trendC, statusC, catC;
+const BASE = {
+  backgroundColor: 'transparent',
+  textStyle: { color: '#8b949e' },
+  tooltip: { backgroundColor:'#1c2128', borderColor:'#30363d', textStyle:{color:'#c9d1d9'} }
+};
+const STATUS_COLOR = {
+  '待确认':'#58a6ff','开发中':'#3fb950','评估中':'#d29922','观测期':'#a371f7',
+  '排期中':'#e3b341','待验收':'#ffa657','已完成':'#56d364','已关闭':'#8b949e','未填写':'#6e7681'
+};
+
+function initCharts() {
+  trendC  = echarts.init(document.getElementById('trendChart'));
+  statusC = echarts.init(document.getElementById('statusChart'));
+  catC    = echarts.init(document.getElementById('categoryChart'));
+  window.addEventListener('resize', ()=>{ trendC.resize(); statusC.resize(); catC.resize(); });
+}
+
+function renderTrend(snaps) {
+  const dates   = snaps.map(s=>s.date).reverse();
+  const totals  = snaps.map(s=>s.total).reverse();
+  const dones   = snaps.map(s=>s.done).reverse();
+  const actives = snaps.map(s=>s.active).reverse();
+  const tops    = snaps.map(s=>s.top).reverse();
+  trendC.setOption({ ...BASE,
+    legend: { data:['总量','已解决','待处理','最高优先级待处理'], textStyle:{color:'#8b949e',fontSize:11}, itemWidth:20, itemHeight:3, top:4 },
+    grid: { left:40, right:20, top:40, bottom:30 },
+    xAxis: { type:'category', data:dates, axisLine:{lineStyle:{color:'#21262d'}}, axisTick:{lineStyle:{color:'#21262d'}}, axisLabel:{color:'#6e7681',fontSize:11} },
+    yAxis: { type:'value', splitLine:{lineStyle:{color:'#21262d',type:'dashed'}}, axisLabel:{color:'#6e7681',fontSize:11} },
+    series: [
+      { name:'总量',             data:totals,  type:'line', smooth:true, symbol:'circle', symbolSize:5, lineStyle:{width:2}, color:'#58a6ff' },
+      { name:'已解决',           data:dones,   type:'line', smooth:true, symbol:'circle', symbolSize:5, lineStyle:{width:2}, color:'#3fb950' },
+      { name:'待处理',           data:actives, type:'line', smooth:true, symbol:'circle', symbolSize:5, lineStyle:{width:2}, color:'#d29922' },
+      { name:'最高优先级待处理', data:tops,    type:'line', smooth:true, symbol:'circle', symbolSize:5, lineStyle:{width:2}, color:'#f85149' }
+    ]
+  });
+}
+
+function renderStatus(statusMap) {
+  const data = Object.entries(statusMap).map(([name,value])=>({ name, value, itemStyle:{color:STATUS_COLOR[name]||'#58a6ff'} }));
+  statusC.setOption({ ...BASE,
+    legend: { orient:'vertical', right:10, top:'center', data:data.map(d=>d.name), textStyle:{color:'#8b949e',fontSize:11}, itemWidth:10, itemHeight:10 },
+    series: [{ type:'pie', radius:['48%','72%'], center:['38%','50%'], data, label:{show:false}, emphasis:{label:{show:true,fontSize:13,fontWeight:'bold',color:'#e6edf3'}} }]
+  });
+}
+
+function renderCategory(catSorted) {
+  const cats   = catSorted.map(([k])=>k).reverse();
+  const counts = catSorted.map(([,v])=>v).reverse();
+  catC.setOption({ ...BASE,
+    grid: { left:70, right:30, top:10, bottom:30 },
+    xAxis: { type:'value', splitLine:{lineStyle:{color:'#21262d',type:'dashed'}}, axisLabel:{color:'#6e7681',fontSize:11} },
+    yAxis: { type:'category', data:cats, axisLine:{show:false}, axisTick:{show:false}, axisLabel:{color:'#c9d1d9',fontSize:11} },
+    series: [{ type:'bar', data:counts, barMaxWidth:18,
+      itemStyle: { color: new echarts.graphic.LinearGradient(0,0,1,0, [{offset:0,color:'#1f3a5f'},{offset:1,color:'#58a6ff'}]) },
+      label: { show:true, position:'right', color:'#8b949e', fontSize:11 }
+    }]
+  });
+}
+
+// ── DOM updates ───────────────────────────────────────
+function escH(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function badgeStyle(label) {
+  const map = {
+    '待确认':'background:#1f3a5f;color:#58a6ff','评估中':'background:#3a2a0a;color:#d29922',
+    '开发中':'background:#1a3a2a;color:#3fb950','观测期':'background:#2a1a3a;color:#a371f7',
+    '排期中':'background:#2a2a0a;color:#e3b341','崩溃':'background:#3a0a0a;color:#f85149',
+    '功能不可用':'background:#3a1a00;color:#ffa657','体验':'background:#0a2a1a;color:#56d364'
+  };
+  return map[label] || 'background:#21262d;color:#8b949e';
+}
+
+function updateKPIs(d) {
+  const pct = n => d.total ? Math.round(n/d.total*100)+'%' : '—';
+  document.getElementById('kpiTotal').textContent   = d.total;
+  document.getElementById('kpiDone').textContent    = d.done;
+  document.getElementById('kpiActive').textContent  = d.active;
+  document.getElementById('kpiTop').textContent     = d.top;
+  document.getElementById('kpiTotalSub').textContent  = `共 ${d.total} 条记录`;
+  document.getElementById('kpiDoneSub').textContent   = `占比 ${pct(d.done)}`;
+  document.getElementById('kpiActiveSub').textContent = `占比 ${pct(d.active)}`;
+  document.getElementById('kpiTopSub').textContent    = `占全部 ${pct(d.top)}`;
+}
+
+function updateTopTable(list, topLevel) {
+  document.getElementById('topTableTitle').textContent = `${topLevel} 级待处理问题`;
+  document.getElementById('snapTopLabel').textContent  = `${topLevel} 级待处理`;
+  const tbody = document.getElementById('topTableBody');
+  if (!list.length) {
+    tbody.innerHTML = `<tr><td colspan="6" class="empty-tip">暂无 ${topLevel} 级待处理问题 ✓</td></tr>`;
+    return;
+  }
+  tbody.innerHTML = list.map(r => `<tr>
+    <td><code style="color:#58a6ff;font-size:11px">#${escH(r.no)}</code></td>
+    <td>${escH(r.content)}</td>
+    <td><span class="badge" style="${badgeStyle(r.status)}">${escH(r.status)||'未填写'}</span></td>
+    <td>${escH(r.cat)}</td>
+    <td><span class="badge" style="${badgeStyle(r.severity)}">${escH(r.severity)||'—'}</span></td>
+    <td style="color:#8b949e;font-size:11px">${escH(r.retest)||'<span style="color:#3d444d">—</span>'}</td>
+  </tr>`).join('');
+}
+
+function updateSnapTable(snaps, topLevel) {
+  const today = new Date().toISOString().slice(0,10);
+  document.getElementById('snapBody').innerHTML = snaps.slice(0,15).map(s => `<tr class="${s.date===today?'today-row':''}">
+    <td>${s.date}${s.date===today?' <span style="color:#58a6ff;font-size:10px">(今日)</span>':''}</td>
+    <td class="num-blue">${s.total}</td>
+    <td class="num-green">${s.done}</td>
+    <td class="num-yellow">${s.active}</td>
+    <td class="num-red">${s.top}</td>
+  </tr>`).join('');
+}
+
+// ── Main render ───────────────────────────────────────
+function renderAll(data, snaps, topLevel) {
+  updateKPIs(data);
+  renderStatus(data.statusMap);
+  renderCategory(data.catSorted);
+  renderTrend(snaps);
+  updateTopTable(data.topList, topLevel);
+  updateSnapTable(snaps, topLevel);
+  document.getElementById('updateTime').textContent = '最后更新: ' + new Date().toLocaleString('zh-CN',{hour12:false});
+}
+
+// ── Boot ──────────────────────────────────────────────
+async function loadFromLocalData() {
+  const EMBEDDED_DATA = {"updated_at": "2026-04-08 17:30:15", "title": "EK7000-V53客诉看板", "field_map": {"status": "状态", "level": "问题分级", "category": "问题归属", "severity": null, "content": "翻译", "no": "客诉id", "date": "填表时间", "retest": "供应商反馈/处理方案"}, "done_values": ["已关闭"], "top_level": "S", "records": [{"record_id": "recvg4izWgsRxa", "fields": {"status": "", "level": "", "category": "04-结构装配", "content": "您好，我的相机出了问题，相机内部零件似乎与机身脱开了，Micro SD卡槽和USB-C接口在机身内发生了移位，因此无法使用。此外，拍出的照片也模糊不清。请进行维修、更换或退换。", "no": "5860", "date": 1775528963000, "retest": ""}}, {"record_id": "recvg4iEhjuZ0Z", "fields": {"status": "", "level": "S", "category": "08-防水壳", "content": "尊敬的女士们、先生们，
+
+我今天开始使用收到的相机，发现关闭外壳时会掉落塑料部件。恳请您寄送一个替换外壳以及详细的安装说明。", "no": "5861", "date": 1775528979000, "retest": ""}}, {"record_id": "recvg4khj8LkbL", "fields": {"status": "", "level": "S", "category": "漏件", "content": "你好，我没有收到随商品一同寄送的64GB SD卡。这是4月11日的一份生日礼物。请帮忙处理，谢谢。", "no": "5862", "date": 1775529368000, "retest": ""}}, {"record_id": "recvg4knLrxaxF", "fields": {"status": "", "level": "S", "category": "01-显示屏", "content": "你好，使用几次后屏幕无法正常工作了，按钮仍然可以使用，因为我能清楚听到相机开机的声音和按钮按下的声音，但屏幕一直是黑的。提前感谢您的帮助。", "no": "5863", "date": 1775529393000, "retest": ""}}, {"record_id": "recvg59QSBl1p1", "fields": {"status": "", "level": "S", "category": "08-防水壳", "content": "我这个相机才买了几个月，塑料外壳上的铰链盖就出问题了。当我试图把它合上时，铰链会脱落，盖子也会掉下来。我已经附上了照片来展示这个问题。我已经拧紧了螺丝，这不是螺丝的问题。请告诉我Akaso能做些什么来修复这个缺陷。", "no": "5865", "date": 1775541659000, "retest": ""}}, {"record_id": "recvg5rRe5q8by", "fields": {"status": "", "level": "S", "category": "12-开关机问题", "content": "听到您在使用EK7000相机时遇到困难，尤其是上传视频和相机随机关机的问题，我深感抱歉。", "no": "5866", "date": 1775545949000, "retest": ""}}, {"record_id": "recvg5vaAv2Z0C", "fields": {"status": "", "level": "S", "category": "08-防水壳", "content": "去年9月，我们收到了运动相机的更换防水外壳。昨天我们第一次再次使用相机，直到那时才打开外壳包装。相机进满了水。
+附上照片。
+我们目前正在马尔代夫度过一个难得的假期。我们无法拍摄任何照片或视频，也无法购买新相机。这非常令人失望。", "no": "5867", "date": 1775546739000, "retest": ""}}, {"record_id": "recvg9U0BKClLA", "fields": {"status": "", "level": "S", "category": "漏件", "content": "缺少微型SD卡", "no": "5868", "date": 1775611764000, "retest": ""}}, {"record_id": "recvg9V6q4QhLv", "fields": {"status": "", "level": "", "category": "04-结构装配", "content": "我是圣诞节给我儿子买的这个，我们刚在春假假期打开，存储卡怎么都插不进去。卡槽没有固定存储卡的弹力。我请求直接更换。", "no": "5869", "date": 1775612025000, "retest": ""}}, {"record_id": "recvg9XWTEZbTc", "fields": {"status": "", "level": "S", "category": "03-声音问题", "content": "嗨，上面写着带视频的音频录制，我录制的时候没有声音？还有最新的AKASO相机是哪款带有音频录制功能的", "no": "5870", "date": 1775612703000, "retest": ""}}, {"record_id": "recvg9Zp56rtJa", "fields": {"status": "", "level": "", "category": "10-固件问题", "content": "之前我对这台相机一直很满意。最近菜单总是篡改所有设置。我已经尝试了各种方法，甚至恢复了出厂设置，但故障仍然存在。您能帮我吗？它还在保修期内。顺致友好的问候 斯特凡", "no": "5871", "date": 1775613050000, "retest": ""}}, {"record_id": "recvga1cWWfJ4Z", "fields": {"status": "", "level": "", "category": "18-死机", "content": "你好，我遇到了订单402-2726822-4733954的严重问题。相机显示无法找到SD卡的消息，我尝试了多张不同格式的卡，但都无法正常工作，而且相机还会卡住。我本来对这个产品充满期待，现在这对我来说是个大问题。你好，正如我之前所说，相机除了SD卡的问题外，还会出现卡顿。在一次卡顿后，相机就无法开机了。我不知道该怎么办，我已经等了好几天希望得到你们的帮助，但还没有看到解决方案。", "no": "5872", "date": 1775613480000, "retest": ""}}, {"record_id": "recvgartpjKTNr", "fields": {"status": "", "level": "", "category": "08-防水壳", "content": "一切都很好，只是防水外壳有点漏水，但漏得不多。", "no": "5873", "date": 1775619739000, "retest": ""}}, {"record_id": "recvgb27deDYdE", "fields": {"status": "", "level": "S", "category": "14-SD卡问题", "content": "我的录音和照片损坏了，无法正常保存。该怎么办", "no": "5875", "date": 1775628472000, "retest": ""}}, {"record_id": "recvgb5tqnUuwp", "fields": {"status": "", "level": "", "category": "03-声音问题", "content": "大约两年前我买了一台Akaso Brave 4 Pro运动相机，并用它拍摄了很多视频。现在我发现，播放视频时的音质变得非常小。刚开始的时候不是这样的。在手册中只能找到关于相机保养的说明，但没有直接提高录音音量的方法。
+
+请问您能在这种情况下帮助我吗？
+
+尊敬的先生/女士，
+
+我拍摄时没有使用防水外壳，声音在笔记本电脑上可以听到，但非常小。在Akaso相机上播放视频时，我听不到声音。但这一直都是这样的。
+
+我会尝试您的建议，如果没有改善，我会再次联系您。", "no": "5877", "date": 1775629272000, "retest": ""}}, {"record_id": "recvgbeu4daKV1", "fields": {"status": "", "level": "S", "category": "11-APP问题", "content": "AKASO应用无法正常使用，总是卡住，我什么都做不了，无法编辑视频，只能下载视频和应用。
+早上好，我已经按照你们说的所有操作都做了：卸载应用，关闭并重启手机，然后重新安装应用，但还是不行，我还是无法对视频进行任何编辑，每次尝试时应用都会卡住，整个应用都卡住了。", "no": "5882", "date": 1775631419000, "retest": ""}}, {"record_id": "recvgbRlzNqrir", "fields": {"status": "", "level": "", "category": "08-防水壳", "content": "写这封简短的邮件是想表达我对最近购买的上述相机有多么失望。我已经在两个假期里使用过它了，在浮潜的时候，由于相机在防水壳里无法正常工作，我错过了好几个拍照机会。相机顶部的拍照按钮并不总是能正常使用。我已经尝试了各种方法来解决这个问题，但都无济于事。这台相机要被扔进垃圾桶了，我会购买其他品牌的相机。", "no": "5886", "date": 1775640682000, "retest": ""}}, {"record_id": "recvgbXscEUBCu", "fields": {"status": "", "level": "", "category": "08-防水壳", "content": "我的Akaso相机K7000的防水壳上的橡胶密封圈坏了。我可以只更换密封圈还是必须购买整个外壳？", "no": "5887", "date": 1775642138000, "retest": ""}}, {"record_id": "recvgbZpksw5L5", "fields": {"status": "", "level": "", "category": "16-机身防水", "content": "我们通过亚马逊购买了Akaso Brave 7相机。在第三次浮潜时它坏了，进水了。我们现在该怎么办？随信附上一张照片，可以看到相机因漏水而内部起雾。是的，它会再次变干，但这没用，因为水总是会再次渗进去。", "no": "5888", "date": 1775642603000, "retest": ""}}]};
+  const { records=[], field_map={}, done_values=[], top_level='S', title='' } = EMBEDDED_DATA;
+  if (title) { document.title = title; document.getElementById('dashTitle').textContent = title; }
+  document.getElementById('kpiTopLabel').textContent = `${top_level} 级待处理`;
+  const data  = analyze(records, field_map, done_values, top_level);
+  const snaps = upsertSnap(data.date, { total:data.total, done:data.done, active:data.active, top:data.top });
+  renderAll(data, snaps, top_level);
+}
+
+async function refreshData() {
+  const btn = document.getElementById('refreshBtn');
+  btn.textContent = '↻ 更新中…'; btn.classList.add('loading');
+  try {
+    const res = await fetch('./feishu_data_latest.json?t='+Date.now());
+    if (res.ok) {
+      const raw = await res.json();
+      const { records=[], field_map={}, done_values=[], top_level='S', title='' } = raw;
+      if (title) { document.title = title; document.getElementById('dashTitle').textContent = title; }
+      const data  = analyze(records, field_map, done_values, top_level);
+      const snaps = upsertSnap(data.date, { total:data.total, done:data.done, active:data.active, top:data.top });
+      renderAll(data, snaps, top_level);
+    }
+  } catch(e) { console.warn('刷新失败', e); }
+  btn.textContent = '↻ 刷新数据'; btn.classList.remove('loading');
+}
+
+initCharts();
+loadFromLocalData();
+</script>
+</body>
+</html>
