@@ -24,7 +24,7 @@ APP_TOKEN    = "TltXbBA3JazbnXshdqqceO2ynqf"
 TABLE_ID     = "tblxWvnRH7tiXwV0"
 VIEW_ID      = "vewH7mlu5K"
 TITLE        = "B7-19D客诉进度看板"
-FIELD_MAP    = {"status": "状态", "level": "问题分级", "category": "问题归属", "severity": null, "content": "翻译", "no": "客诉id", "date": "填表时间", "retest": "供应商反馈/处理方案"}
+FIELD_MAP    = {"status": "状态", "level": "问题分级", "category": "问题归属", "severity": None, "content": "翻译", "no": "客诉id", "date": "填表时间", "retest": "供应商反馈/处理方案"}
 DONE_VALUES  = ["\u5df2\u5173\u95ed"]
 TOP_LEVEL    = "S"
 
