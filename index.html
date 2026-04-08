@@ -50,9 +50,52 @@
   .card-arrow { position: absolute; top: 20px; right: 20px; color: #1e3a5f;
     font-size: 14px; transition: color .2s; }
   .card:hover .card-arrow { color: #3b82f6; }
+
+  /* ── 密码遮罩层 ── */
+  #auth-overlay {
+    position: fixed; inset: 0; z-index: 9999;
+    background: #0b0f1e;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .auth-box {
+    background: #131929; border: 1px solid #1e2d47; border-radius: 20px;
+    padding: 48px 40px; text-align: center; width: 340px;
+    display: flex; flex-direction: column; gap: 18px;
+  }
+  .auth-lock { font-size: 44px; line-height: 1; }
+  .auth-title { font-size: 20px; font-weight: 700; color: #e2e8f0; }
+  .auth-sub { font-size: 13px; color: #475569; line-height: 1.5; }
+  .auth-input {
+    background: #0d1117; border: 1px solid #1e2d47; border-radius: 10px;
+    color: #e2e8f0; font-size: 18px; padding: 13px 16px;
+    outline: none; text-align: center; letter-spacing: 6px;
+    transition: border-color .2s; width: 100%;
+  }
+  .auth-input:focus { border-color: #3b82f6; }
+  .auth-error { font-size: 12px; color: #f85149; display: none; margin-top: -8px; }
+  .auth-btn {
+    background: #1d4ed8; color: #fff; border: none; border-radius: 10px;
+    padding: 13px; font-size: 15px; font-weight: 600; cursor: pointer;
+    transition: background .2s;
+  }
+  .auth-btn:hover { background: #2563eb; }
 </style>
 </head>
 <body>
+
+<!-- 密码遮罩层 -->
+<div id="auth-overlay">
+  <div class="auth-box">
+    <div class="auth-lock">🔒</div>
+    <div class="auth-title">赛纳电子 · 数据看板</div>
+    <div class="auth-sub">请输入访问密码</div>
+    <input type="password" id="auth-input" class="auth-input" placeholder="••••••••"
+           autocomplete="current-password" maxlength="32">
+    <div id="auth-error" class="auth-error">密码错误，请重试</div>
+    <button class="auth-btn" onclick="checkAuth()">进 入</button>
+  </div>
+</div>
+
 <div class="header">
   <div class="brand">赛纳电子 · 内部数据平台</div>
   <h1>数据看板</h1>
@@ -201,5 +244,40 @@
   </div>
 </div>
 <div class="footer">页面最后更新时间反映在各看板内</div>
+
+<script>
+const _AH = 'e4d81e98ab46fb41d0215e8d1b057612b4687b0fab2bd89136fb5a469f111551';
+const _AK = 'saina_auth';
+
+async function _sha256(s) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
+  return [...new Uint8Array(buf)].map(x => x.toString(16).padStart(2, '0')).join('');
+}
+
+(function init() {
+  if (localStorage.getItem(_AK) === _AH) {
+    document.getElementById('auth-overlay').style.display = 'none';
+  }
+  document.getElementById('auth-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') checkAuth();
+    document.getElementById('auth-error').style.display = 'none';
+  });
+})();
+
+async function checkAuth() {
+  const v = document.getElementById('auth-input').value;
+  if (!v) return;
+  const h = await _sha256(v);
+  if (h === _AH) {
+    localStorage.setItem(_AK, _AH);
+    document.getElementById('auth-overlay').style.display = 'none';
+  } else {
+    document.getElementById('auth-error').style.display = 'block';
+    document.getElementById('auth-input').value = '';
+    document.getElementById('auth-input').focus();
+  }
+}
+</script>
+
 </body>
 </html>

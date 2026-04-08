@@ -1,0 +1,41 @@
+name: 从飞书同步数据并更新看板
+
+on:
+  schedule:
+    # 每 15 分钟运行一次（UTC 时间，北京时间 = UTC+8）
+    - cron: '*/15 * * * *'
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: pip install requests
+
+      - name: 运行所有看板更新脚本
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+        run: python update_all.py
+
+      - name: 提交并推送更新的数据
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add .
+          if git diff --staged --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "auto: 飞书数据同步 $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

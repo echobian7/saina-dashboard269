@@ -1,12 +1,13 @@
-# Python 脚本及运行产物（仅用于本地更新，不需要部署）
-*.py
+# Python 依赖（本地运行，不排除脚本本身）
 *.pyc
-*.log
-*.bat
 __pycache__/
 .env
 
-# 原始数据文件（保留 latest 版本即可）
+# 日志和本地调度文件
+*.log
+*.bat
+
+# 原始数据（保留 latest 版本）
 feishu_data_raw.json
 
 # 系统文件
