@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09 00:03:42",
+  "updated_at": "2026-04-09 06:10:40",
   "title": "V50 Elite-V39 客诉进度看板",
   "field_map": {
     "status": "进度",
@@ -996,7 +996,7 @@
       "record_id": "recv89bTkAoNYf",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "您好，充电接口已熔化。相机无法再充电和使用。此致",
@@ -1009,7 +1009,7 @@
       "record_id": "recuu4lcayR6VJ",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "自从我买了这个相机后，我一直没能用它。我试过多张 SD 卡，包括不同尺寸和品牌的。我多次检查了要求。我测试了视频和延时摄影，它总是删除我的文件或根本不保存它们。我试了 10 次，但总是出现同样的问题。我需要一个更好的相机，这似乎是软件问题。\n我执行了出厂重置和 SD 卡重置。问题仍然存在。固件是 v50 elite 20230626-v3",
@@ -1022,7 +1022,7 @@
       "record_id": "recuvSvzNdxuTM",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "您好，我购买了 Akasio V50 Elite 运动相机，但遇到了技术问题。一旦我更换电池，我就会收到一条错误消息，并且必须重新格式化 SD 卡，从而删除其中的文件。这不可能是正确的。",
@@ -1035,7 +1035,7 @@
       "record_id": "recuUj96cNOmKo",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "语音控制不起作用。\n\n如果我使用按钮，遥控器可以正常工作，但语音控制不行，似乎麦克风无法正常工作。\n我已经重置了摄像头并将语言设置为英语，现在可以正常工作了。\n但如果我将语言设置为意大利语，就无法正常工作。\n好吧，这样也行。 ",
@@ -1048,7 +1048,7 @@
       "record_id": "recvcXjgbVr3vA",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "Akaso V50 Elite。当我把SD卡从相机里取出来，放进转接器，然后连接到我的MacBook Pro时，什么反应都没有。用我的旧款Mac时，我按照同样的步骤就能立刻看到文件。",
@@ -1061,7 +1061,7 @@
       "record_id": "recuUd1beYBfF0",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "我无法启动视频录制模式。\n当我开始录制视频时，红色指示灯亮起表示正在录制，但它会立即停止，没有录制出视频。\n如果我对相机进行出厂重置，它可以正常工作，但当相机关机再开机后，又会出现同样的问题。\n我尝试使用了多张不同的SD卡，有Akaso 64GB的，也有三星等其他品牌不同大小的卡。 ",
@@ -1386,7 +1386,7 @@
       "record_id": "recuxJOne5Iqjl",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "开机卡logo",
@@ -1607,7 +1607,7 @@
       "record_id": "recvbz3vnlYjZL",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "11-APP问题，14-SD卡问题",
         "severity": "产品问题",
         "content": "我从事信息技术行业，因此已经进行了广泛的故障排除以排除用户错误。我已确定两个持续存在的软件漏洞：\n\n1. WiFi握手失败：手机成功连接到相机的接入点，但应用未能确认会话，导致连接循环。我已经清除了缓存、重新安装了应用并重置了网络堆栈。\n\n2. 存储挂载错误：相机在启动时经常提示“格式化SD卡”，即使是已在设备中格式化过的经过验证的U3卡也是如此。\n\n由于我已确认硬件没有问题，问题出在固件层面，因此需要更新文件来解决。我自己可以完成手动刷机过程。",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09 00:01:39",
+  "updated_at": "2026-04-09 06:09:06",
   "title": "Brave4 客诉进度看板",
   "field_map": {
     "status": "进度",
@@ -2140,7 +2140,7 @@
       "record_id": "recv27Sz9Z48Vd",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "我认为我的AKASO Brave 4相机的充电口有问题。当我插上充电器时，它不再亮红灯，也没有任何反应。我已经尝试了不同的数据线，它们都没问题。我该怎么办？",
@@ -2153,7 +2153,7 @@
       "record_id": "recv5qHis7e3Ly",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "我有一台Brave 4和一台Brave 4 Pro。Brave 4装上电池无法开机，电池是充满电的，并且能为Brave 4 Pro开机。Brave 4不装电池、仅用USB线连接时可以开机。顺便说一下，两台相机配备的电池都能为Brave 4 Pro开机。",
@@ -2166,7 +2166,7 @@
       "record_id": "recuwwnUUb30BC",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "显示屏似乎有问题。虽然数据本身并没有分屏，但相机屏幕如图所示分屏。\n初始化也没有改善。",
@@ -2179,7 +2179,7 @@
       "record_id": "recuxQLF3XWMYr",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "显示器屏幕将被分成4个部分显示。录的文件没问题。可以修理或更换吗？",
@@ -2192,7 +2192,7 @@
       "record_id": "recuDGvtG3EpUh",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "I have started having issues with my Brave 4 screen. It doesn’t matter if the battery is fully charged or not, when I turn the camera on the screen is going crazy.\n",
@@ -2205,7 +2205,7 @@
       "record_id": "recuGkfWxlh7Un",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "我想对运动相机 Brave 4 进行保修索赔，屏幕出现故障",
@@ -2218,7 +2218,7 @@
       "record_id": "recv3a1CkoBpJu",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "调整时间后，短时间内没有问题，但（电池保持装入状态）经过一段时间后，时间会出现偏差。",
@@ -2231,7 +2231,7 @@
       "record_id": "recv89J69NRmqW",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "早上出发时调整了时间，显示的是准确时间。有一次暂停拍摄（没有取下电池），之后打开电源，时间就出现了偏差。请问有什么解决办法吗？这款Brave4经常出现这种现象吗？",
@@ -2244,7 +2244,7 @@
       "record_id": "recvb4HfW0y1pX",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "我的相机屏幕在启动时看起来在动，并且一直持续移动。我想尝试硬重置或固件升级，但无法查看屏幕来导航到重置选项。",
@@ -2257,7 +2257,7 @@
       "record_id": "recvcpdh0upfa9",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "我将其与智能手机同步设置了时间。一开始还好，但如果在目的地大约两小时不使用（不打开电源）的话，感觉时间会有偏差。\n\n一旦时间出现偏差，拍摄时间也会随之错位，这给视频编辑带来了相当大的麻烦。\n\n我的情况是，用Brave4 Pro拍摄骑行视频（摩托车视角），Brave4则用于自拍。例如，想把8:00用Brave4 Pro拍摄的视频和8:10用Brave4拍摄的自拍视频接续起来编辑时，如果Brave4的时间有偏差，自拍视频文件就会显示错误的时间，要找到8:10自动生成的视频文件就会非常费劲。\n\n请告诉我有什么解决办法。我会附上图片和视频，从中可以明显看出时间不一致。这是2月7日（周六）的情况。这种问题每次外出骑行时都会发生，这次因为出现频率较高，所以特此告知。",
@@ -2270,7 +2270,7 @@
       "record_id": "recuFGioV83qUh",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "拍摄时会自己中断录制",
@@ -2283,7 +2283,7 @@
       "record_id": "recuLl7FhZaN29",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "相机随机停止录制，可能1分钟后停止，也可能7分钟后停止。我已经尝试使用了多种不同容量的存储卡，对相机进行了格式化和重置操作。相机固件版本为B4 - TR - 240617v1.0。",
@@ -2296,7 +2296,7 @@
       "record_id": "recveKknXZijpq",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "我于2026年2月27日通过亚马逊购买了一台Brave 4相机。总体而言，我对这款产品非常满意，尤其是它的性价比和附带的丰富配件，我一直用它来记录我儿子的足球比赛。\n\n然而，我在使用过程中遇到了一个反复出现的问题。在录制过程中，通常在10-15分钟左右，相机间歇性地停止录制，然后立即重新开始。在某些情况下，屏幕会短暂黑屏；在其他情况下，则会出现提示设备正在处理录制数据的消息。\n\n为了排除常见原因，我已执行以下故障排除步骤：\n- 查看并调整相机设置\n- 使用随附的Akaso 64GB microSD卡进行测试\n- 使用另一张SanDisk microSD卡进行测试\n- 购买并测试了SanDisk Extreme Pro 128GB卡（推荐用于运动相机）\n- 确保所有存储卡在使用前都已正确格式化\n\n尽管采取了这些步骤，录制过程中问题仍然持续出现。\n\n目前，我不确定这是否与我可能忽略的某个设置有关，还是相机本身存在间歇性故障。考虑到在多张存储卡和多次测试中问题都一致出现，我倾向于认为这是设备相关的问题。",
@@ -3024,7 +3024,7 @@
       "record_id": "recuqFsyhW1ID5",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "它从未被使用过。我打开包装，按照说明操作，现在它就是这样的。它没有掉落或损坏。我从来没有能够使用它，它没有更新。我需要在星期五拍摄，但我的时间不多了。当我打开相机时，它唯一能做的就是停留在屏幕上，上面写着“Akaso Brave 4”。所有按钮都不起作用。我无法查看设置，因为相机什么也不做。镜头旁边的小屏幕不亮。我尝试过在插入和不插入 SD 卡的情况下打开相机——但仍然没有任何反应。",
@@ -3037,7 +3037,7 @@
       "record_id": "recuNdTMhsIYon",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "我有一台 Brave 4 无法正常启动。当我开机后，它会显示到这个界面然后就死机了。无论是将它连接到电脑、插上充电头，还是仅靠电池供电时，都会出现这种情况，而且安装或不安装 SD 卡也都会这样。如果您能提供任何帮助，我将不胜感激。 ",
@@ -3050,7 +3050,7 @@
       "record_id": "recv34tp5BdcKG",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "我去年圣诞节收到了这台相机，可能没有收据，但相机现在的问题是，开机后就一直停留在显示“AKASO”的屏幕上。",
@@ -3063,7 +3063,7 @@
       "record_id": "recv6LjtJ4EwsC",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "我给我的孙子们买了4部AKASO Brave 4作为圣诞礼物。其中一部在使用大约三天后出现故障。起初它完全无法开机。然后我按照你们的建议取下了电池和SD卡，并充电了一个小时。现在它能开机了，但一直卡在开机画面，无论是通过USB连接、使用电池还是插入SD卡，在所有情况下都卡在开机画面。这是标签和序列号的照片（拍起来不太容易）。",

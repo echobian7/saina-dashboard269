@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09 00:03:06",
+  "updated_at": "2026-04-09 06:09:58",
   "title": "Brave8Lite 客诉进度看板",
   "field_map": {
     "status": "进度",
@@ -268,7 +268,7 @@
       "record_id": "recuJyQ9rRMPWe",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "我买了一台Brave 8 LITE，但我的相机无法从USB端口供电。可以保修吗？",
@@ -281,7 +281,7 @@
       "record_id": "recuqRCk85GXIY",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "电池指示器从100%完全没有减少\n另外，如果反复进行初始化的话，虽然偶尔会启动指示器，但是那个时候机身会变热，电池的减少会异常的快。",
@@ -294,7 +294,7 @@
       "record_id": "recuAuuTKIbE6j",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "APP问题",
         "content": "去年11月11日以后拍摄的视频出现了无法进行防抖修正的现象。\n在骑自行车的视频中振动会出现在视频中。\n智能手机上的应用程序摄像头固件是最新的，\n有线索的话，可以考虑应用程序“AKASO GO”的更新、iPhone iOS18的更新。\n不会对相机造成冲击。\n另外，我认为箱子支架的固定可能是松散的，所以我买了金属外壳，但它没有改善。\n应用程序方面的问题，iOS18的兼容性等，有这种可能性吗？",
@@ -307,7 +307,7 @@
       "record_id": "recumC8qum8OoW",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "录像及回放问题，10-固件问题",
         "severity": "产品问题",
         "content": "使用AKASO GO将视频超级流畅地下载到智能手机后，会变成慢速播放。\n请告诉我该怎么做。",
@@ -632,7 +632,7 @@
       "record_id": "recuSwdZTT09kH",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "我们有一台Akaso Brave 8 Lite运动相机，从昨晚开始它就无法正常工作了，一直显示错误信息：卡速太慢。可惜的是，格式化存储卡和更换存储卡都无法解决问题。\n附件中有软件版本、SD卡以及错误信息的图片。很遗憾，格式化和更换存储卡都无法修复这个问题。 ",
@@ -788,7 +788,7 @@
       "record_id": "recule2znbok5b",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "11-APP问题，录像及回放问题",
         "severity": "APP问题",
         "content": "如果用app下载超级流畅视频的话，就会变成慢速播放。",

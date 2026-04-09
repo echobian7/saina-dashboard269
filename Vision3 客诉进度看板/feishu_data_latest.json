@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09 00:04:03",
+  "updated_at": "2026-04-09 06:11:05",
   "title": "Vision3 客诉进度看板",
   "field_map": {
     "status": "进度",
@@ -164,7 +164,7 @@
       "record_id": "recuTaKnHYWH5P",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "我的龙触（Dragon Touch）Vision 3相机一直使用得很好，直到最近拍摄的一系列视频在我们任何一台装有Windows 10和11系统的电脑上都无法播放。我尝试了多个视频播放器，包括Windows媒体播放器、VLC等，但所有播放器都显示错误，提示文件未被识别或已损坏。之前拍摄的视频仍然可以正常播放，而且我查看文件属性时，也没发现能正常播放的视频和不能播放的视频有什么区别。有谁知道可能是什么情况吗？我们上次外出时我至少拍了十条视频，都出现了同样的错误。\n\n另外，当我尝试在相机上播放视频时，相机只能浏览照片，根本无法播放视频。为什么使用上下键滚动时不显示视频呢？ ",
@@ -242,7 +242,7 @@
       "record_id": "recuteECMPnaqw",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "相机无法开机，即使使用USB线充电",
@@ -268,7 +268,7 @@
       "record_id": "recuQD6ldde6I7",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "当我打开相机时，它只显示启动画面，无法进入菜单，请查看附件中的图片。",
