@@ -108,8 +108,8 @@ def embed_data_into_html(raw_data):
         html = html.replace(PLACEHOLDER, json_str)
     else:
         # already embedded — replace the old JSON
-        pattern = r'const EMBEDDED_DATA = (\{.*?\});'
-        html = re.sub(pattern, f'const EMBEDDED_DATA = {json_str};', html, flags=re.DOTALL)
+        pattern = r'const EMBEDDED_DATA = \{.*?\};'
+        html = re.sub(pattern, lambda _: f'const EMBEDDED_DATA = {json_str};', html, flags=re.DOTALL)
     HTML_TMPL.write_text(html, encoding='utf-8')
     print(f"  ✓ dashboard.html 已更新（嵌入 {len(raw_data['records'])} 条记录）")
 

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-08 18:08:48",
+  "updated_at": "2026-04-09 20:22:28",
   "title": "EK7000-8816 客诉进度看板",
   "field_map": {
-    "status": "进度",
+    "status": "状态",
     "level": "问题分级",
     "category": "问题归属",
     "severity": "问题类型",
@@ -33,7 +33,7 @@
     {
       "record_id": "recvcXGJHfVEVw",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",

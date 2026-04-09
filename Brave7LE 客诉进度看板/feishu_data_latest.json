@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-08 18:09:54",
+  "updated_at": "2026-04-09 20:21:32",
   "title": "Brave7LE 客诉进度看板",
   "field_map": {
-    "status": "进度",
+    "status": "状态",
     "level": "问题分级",
     "category": "问题归属",
     "severity": "问题类型",
@@ -280,7 +280,7 @@
     {
       "record_id": "recunQ4ILUrlwz",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -293,7 +293,7 @@
     {
       "record_id": "recuoU6DsH9QOe",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -306,7 +306,7 @@
     {
       "record_id": "recupxnNbBHx1q",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -319,7 +319,7 @@
     {
       "record_id": "recusPZvAaF0Q9",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -332,7 +332,7 @@
     {
       "record_id": "recutoQx0KWcGT",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -345,7 +345,7 @@
     {
       "record_id": "recuvv6FZkvN9N",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -358,7 +358,7 @@
     {
       "record_id": "recuwwf6elcgJb",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -371,7 +371,7 @@
     {
       "record_id": "recux4YjJZh5xs",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -384,7 +384,7 @@
     {
       "record_id": "recuxQLHIAfw1B",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -397,7 +397,7 @@
     {
       "record_id": "recuz9LUY1ccs2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -410,7 +410,7 @@
     {
       "record_id": "recuzOOb3X6zq3",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -423,7 +423,7 @@
     {
       "record_id": "recuAuuTKI0jWu",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -436,7 +436,7 @@
     {
       "record_id": "recuC0YaDNxzr5",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -449,7 +449,7 @@
     {
       "record_id": "recuCnI4Sh2QOp",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -462,7 +462,7 @@
     {
       "record_id": "recuCtFqXiAvGC",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -475,7 +475,7 @@
     {
       "record_id": "recuD7BolyWSs3",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -488,7 +488,7 @@
     {
       "record_id": "recuD7BolydK5o",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -501,7 +501,7 @@
     {
       "record_id": "recuD7Boly3S0Q",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -514,7 +514,7 @@
     {
       "record_id": "recuDMpYPspnhb",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -527,7 +527,7 @@
     {
       "record_id": "recuDYWODbpXOv",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -540,7 +540,7 @@
     {
       "record_id": "recuElk9nP22TK",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -553,7 +553,7 @@
     {
       "record_id": "recuGlEEJhEVqS",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -566,7 +566,7 @@
     {
       "record_id": "recuIYc86ghhSJ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -579,7 +579,7 @@
     {
       "record_id": "recuJmi0b8H79e",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "用户体验问题",
@@ -592,7 +592,7 @@
     {
       "record_id": "recuKnD0IlixLZ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "用户体验问题",
@@ -605,7 +605,7 @@
     {
       "record_id": "recuKFuX5pgevM",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -618,7 +618,7 @@
     {
       "record_id": "recuODNwuB3rdU",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -631,7 +631,7 @@
     {
       "record_id": "recuSjbVgVAjkY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -644,7 +644,7 @@
     {
       "record_id": "recuUbKfh5FWbW",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -657,7 +657,7 @@
     {
       "record_id": "recuUScZWSsddh",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -670,7 +670,7 @@
     {
       "record_id": "recv0vS1LhyJou",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -683,7 +683,7 @@
     {
       "record_id": "recv16dYMDPtP0",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -696,7 +696,7 @@
     {
       "record_id": "recv2uctlXRHlp",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -709,7 +709,7 @@
     {
       "record_id": "recv3a1ETvEN2W",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -722,7 +722,7 @@
     {
       "record_id": "recv5CBSjmls4J",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -735,7 +735,7 @@
     {
       "record_id": "recv5IA7IhaYbH",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -748,7 +748,7 @@
     {
       "record_id": "recv6Lbi6GhnGb",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -761,7 +761,7 @@
     {
       "record_id": "recv7BqsJteyVR",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -774,7 +774,7 @@
     {
       "record_id": "recv89sEGORHAU",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -787,7 +787,7 @@
     {
       "record_id": "recvbzeGL03S15",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -800,7 +800,7 @@
     {
       "record_id": "recvcjZC78W9WS",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -813,7 +813,7 @@
     {
       "record_id": "recvfp7sAQRli4",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -826,7 +826,7 @@
     {
       "record_id": "recvfI1wNOauFK",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -839,7 +839,7 @@
     {
       "record_id": "recvg9XWTEZbTc",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -852,8 +852,8 @@
     {
       "record_id": "recv2u9ylRZJLO",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "03-声音问题，14-SD卡问题",
         "severity": "产品问题",
         "content": "声音与嘴唇动作不匹配",
@@ -865,7 +865,7 @@
     {
       "record_id": "recuk4FHSuzNpz",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -878,7 +878,7 @@
     {
       "record_id": "recukfB48szoFs",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -891,7 +891,7 @@
     {
       "record_id": "recukxaZW0GiU7",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -904,7 +904,7 @@
     {
       "record_id": "recukIXhFFLUKD",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -917,7 +917,7 @@
     {
       "record_id": "reculoqHrrA0sa",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -930,7 +930,7 @@
     {
       "record_id": "reculSojzgcsiI",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -943,7 +943,7 @@
     {
       "record_id": "recumxF4XuqdqK",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -956,7 +956,7 @@
     {
       "record_id": "recuodpESX9QQT",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -969,7 +969,7 @@
     {
       "record_id": "recuoSKAW8i8xe",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -982,7 +982,7 @@
     {
       "record_id": "recuoTxyPXu3wL",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -995,7 +995,7 @@
     {
       "record_id": "recuoU9WoAuVMy",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1008,7 +1008,7 @@
     {
       "record_id": "recupaQVcgqkJW",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1021,7 +1021,7 @@
     {
       "record_id": "recuqFKrLvZhoP",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1034,7 +1034,7 @@
     {
       "record_id": "recuqFN0iZiHoY",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1047,7 +1047,7 @@
     {
       "record_id": "recutoQwHbH1kL",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1060,7 +1060,7 @@
     {
       "record_id": "recuuD5UEvuhGq",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1073,7 +1073,7 @@
     {
       "record_id": "recuw2ZfYN2NmV",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "用户体验问题",
@@ -1086,7 +1086,7 @@
     {
       "record_id": "recuy37LiRTZn8",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1099,7 +1099,7 @@
     {
       "record_id": "recuyqjmv584x4",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1112,7 +1112,7 @@
     {
       "record_id": "recuz4aNyhENHm",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1125,7 +1125,7 @@
     {
       "record_id": "recuz5azVo7cWs",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1138,7 +1138,7 @@
     {
       "record_id": "recuzb6sO4XSbR",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1151,7 +1151,7 @@
     {
       "record_id": "recuzKa3A40AZW",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1164,7 +1164,7 @@
     {
       "record_id": "recuzUOwnRGL76",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1177,7 +1177,7 @@
     {
       "record_id": "recuAGVENVnq7E",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1190,7 +1190,7 @@
     {
       "record_id": "recuC1cDPkKXPK",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1203,7 +1203,7 @@
     {
       "record_id": "recuCoqYVstU4b",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1216,7 +1216,7 @@
     {
       "record_id": "recuFnxxA0Lor2",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1229,7 +1229,7 @@
     {
       "record_id": "recuFnynvMgLpd",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1242,7 +1242,7 @@
     {
       "record_id": "recuFGjY7K5thR",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1255,7 +1255,7 @@
     {
       "record_id": "recuFLcn38unZc",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1268,7 +1268,7 @@
     {
       "record_id": "recuHKGn44BaKC",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1281,7 +1281,7 @@
     {
       "record_id": "recuHPRcRX9fKA",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1294,7 +1294,7 @@
     {
       "record_id": "recuIoDQaBmLKJ",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1307,7 +1307,7 @@
     {
       "record_id": "recuIoEDvvGrKs",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1320,7 +1320,7 @@
     {
       "record_id": "recuIp7rnNhnxZ",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1333,7 +1333,7 @@
     {
       "record_id": "recuJ9VhqdZ08B",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1346,7 +1346,7 @@
     {
       "record_id": "recuKG41NMqPJj",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1359,7 +1359,7 @@
     {
       "record_id": "recuMttaCxAGUb",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1372,7 +1372,7 @@
     {
       "record_id": "recuNesEIkEheH",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "用户体验问题",
@@ -1385,7 +1385,7 @@
     {
       "record_id": "recuODNwuBSDe9",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "用户体验问题",
@@ -1398,7 +1398,7 @@
     {
       "record_id": "recuODNwuBGiST",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1411,7 +1411,7 @@
     {
       "record_id": "recuRaCFY5xMlh",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1424,7 +1424,7 @@
     {
       "record_id": "recuSdTC5vldFF",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "配件问题",
@@ -1437,7 +1437,7 @@
     {
       "record_id": "recuTUkZqWUAHF",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1450,7 +1450,7 @@
     {
       "record_id": "recuUeleMdXBCC",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1463,7 +1463,7 @@
     {
       "record_id": "recuWyVNNE4tqp",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1476,7 +1476,7 @@
     {
       "record_id": "recuWVcu26osGJ",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1489,7 +1489,7 @@
     {
       "record_id": "recuXNsLNTrF1t",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1502,7 +1502,7 @@
     {
       "record_id": "recuZESw0oBYMf",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1515,7 +1515,7 @@
     {
       "record_id": "recuZESw7EE3sV",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1528,7 +1528,7 @@
     {
       "record_id": "recv0wypKIqAPe",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1541,7 +1541,7 @@
     {
       "record_id": "recv1DQyP1DN08",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1554,7 +1554,7 @@
     {
       "record_id": "recv4ifacEtOn9",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1567,7 +1567,7 @@
     {
       "record_id": "recv5CYOfSKeDv",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1580,7 +1580,7 @@
     {
       "record_id": "recv6L2JNwIYSO",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1593,7 +1593,7 @@
     {
       "record_id": "recv6P8K6JkTFI",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1606,7 +1606,7 @@
     {
       "record_id": "recv9sU9KvtYQv",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1619,7 +1619,7 @@
     {
       "record_id": "recvdl5cG1yTGl",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1632,7 +1632,7 @@
     {
       "record_id": "recvenWJ3zxbDv",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -1645,7 +1645,7 @@
     {
       "record_id": "recveRXxyXiHqm",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -2373,8 +2373,8 @@
     {
       "record_id": "recuwI2cKPZmlr",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机，12-开关机问题",
         "severity": "产品问题",
         "content": "今天拍照的时候，所有的按键都不反应了。\n显示器左下角的蓝色灯亮着，但显示器不显示。\n按任何按钮都没有反应，所以我拔掉电池以关闭电源。\n之后再次插入电池，按下开机按钮，开机了卡在logo页面没有前进，即使等了好几个小时也没有启动。\n怎样才能改善这种状态呢？\n拍摄的数据也消失了。",
@@ -2386,8 +2386,8 @@
     {
       "record_id": "recuyvbt00rYBP",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题",
         "severity": "配件问题",
         "content": "商品送到后，用充电器给电池充电，即使充电器变成蓝色显示，放入本体后也不会显示100%电量。另外，如果想用本体充电的话，就会一直亮红灯，充电也不会结束。我认为是电池或本体方面的故障。我希望交换。",
@@ -2399,8 +2399,8 @@
     {
       "record_id": "recuSjp9C9xt2o",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题",
         "severity": "配件问题",
         "content": "两块电池都无法充电了。",
@@ -2412,8 +2412,8 @@
     {
       "record_id": "recuTgiSIX7pij",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "两块电池都无法充电了。商品页面上关于该商品的介绍中提到“提供1年的安心保障，承诺对产品的缺陷和故障进行快速有效的处理”，所以请贵方处理一下。充电器和电池都没有问题。据说相机也是通过外接电缆供电来使用的。而且据说即使将充好电的电池插入相机也无法使用。 ",
@@ -2425,8 +2425,8 @@
     {
       "record_id": "recuTUkZqWtjmz",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "USB Type-B 无反应，无法充电。",
@@ -2438,8 +2438,8 @@
     {
       "record_id": "recuXSzCU17HKv",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "请介绍一下akaso brave 7 le。\n\n相机好像识别不了电池，不连接type - C就无法启动，给电池充电也没有反应，这是故障吗？还是说我的启动方式或者电池使用方法有问题呢？因为相机两面还贴着保护膜，所以也不清楚是不是坏了……我很发愁。最坏的情况，能用type - C充电吗？ ",
@@ -2451,8 +2451,8 @@
     {
       "record_id": "recv0UCF62YYn6",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "相机的充电接口有故障，有时无法充电。我已经尝试了不同的数据线等，并且在没有电池的情况下也试过，确定是接口坏了。请问该如何解决这个问题？",
@@ -2464,8 +2464,8 @@
     {
       "record_id": "recvdJ1v4TeAEE",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题，06-电池",
         "severity": "产品问题",
         "content": "充电完成后明明没有使用，打开电源时电量却减少了很多。前一天晚上充的电，到当天上午就已经没电了。希望退货。麻烦您了。",
@@ -2477,8 +2477,8 @@
     {
       "record_id": "recuniYnPQmwKN",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "在2022年7月20日购买了AKASO Brave 7le。\n在外面拍摄动作的时候，“正在处理中，请稍等。”，不能拍摄视频了。\n到现在为止可以使用约2年，不过，上次和这次发生了同样的症状。\n上次发生的时候，拔出SD卡初始化(工厂出货时)就能动作了。\n这次从外面回来(过了5个小时左右)，确认了能工作。\n虽然可以作为回忆的记录使用，但是经常发生这样的故障的话很困扰。\n我觉得变得不稳定了。怎样做才能消除这个故障呢?",
@@ -2490,8 +2490,8 @@
     {
       "record_id": "recuGqf23iRl7n",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "Brave 7 上的 Wifi 连接一直提示重启相机,已提供所有排障",
@@ -2503,8 +2503,8 @@
     {
       "record_id": "recuJyQ9rRFhFc",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "brave7le用于公司内部的视频拍摄，想问一下日期和时间的设定，所以给您发了邮件。\n\n使用说明书的方法进行了相机本体的日期和时间设定，但是在不知不觉中日期和时间设定被打乱的事情。\n\n时间设定被打乱的原因是什么呢？有没有不打乱日期和时间设定的方法呢？",
@@ -2516,8 +2516,8 @@
     {
       "record_id": "recuNXSU4ZTD5G",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "我使用的是 7LE，无论设定多少次日期，拍摄时日期都会变成 2024 年 1 月 1 日。相机本体显示的是今天的日期，是不是有什么设置呢？请多多关照。 ",
@@ -2529,8 +2529,8 @@
     {
       "record_id": "recuTUkZqWHAct",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "关于日期和时间，我已经设置成在视频左上角显示拍摄日期和时间了，但查看拍摄的视频时，发现显示的日期和时间完全不对。\n例如，2025年7月24日18点左右拍摄的视频，显示的却是2024年1月1日21点。\n\n我已经确认过相机的设置，日期和时间是正确的。\n无法按照拍摄顺序排列视频，使用起来很不方便。 ",
@@ -2542,8 +2542,8 @@
     {
       "record_id": "recuZbM8EL0eLL",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "勇敢者7（Brave 7）的快捷菜单无法下拉。\n虽然触摸屏上有一个白色和一个蓝色的锁定图标，但屏幕无法解锁以查看常规信息，比如卡片格式。\n我认为我可以通过WiFi连接对存储卡进行格式化，但仍然无法按照说明或视频中所示从顶部下拉快捷菜单。\n我看了视频，在我弄清楚如何连接WiFi之前，我无法对SD卡进行格式化。触摸屏被锁定，但固件是最新的。我从未使用过下拉快捷菜单。\n我只是希望能解锁屏幕，以便进入常规菜单选项。\n我能够触摸屏幕上的WiFi选项，并且它能正常工作。锁定图标会滑到右边，但随后白色图标又单独显示了。 ",
@@ -2555,8 +2555,8 @@
     {
       "record_id": "recuo3xZByIdnm",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "APP问题",
         "content": "用brave7le拍摄的视频会以惊人的速度播放。\n可能是设定的关系吧，看了说明书还是不明白，希望能简单易懂地告诉我。",
@@ -2568,8 +2568,8 @@
     {
       "record_id": "recuoUb3pdPrSp",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "APP问题",
         "content": "这是第一次接触。\n前几天，我在亚马逊上买了brave 7le，第一次拍了视频，但是把拍好的视频下载到iPhone后，所有的视频中途都变成了慢动作。\n请告诉我应对方法。",
@@ -2581,8 +2581,8 @@
     {
       "record_id": "recupfMkRXIwsX",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "APP问题",
         "content": "iPad的照片夹移动导致播放中途慢放的现象再次发生，希望您能告诉我相应的对策。",
@@ -2594,8 +2594,8 @@
     {
       "record_id": "recuqNcV6mpFpa",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "APP问题",
         "content": "要求退款或换货 akaso brave 7 le 即使在正常模式下录制视频，也会在 40 至 60 秒后切换到慢动作模式。我尝试了各种方法，例如关闭屏幕保护程序，但症状没有改变。",
@@ -2607,8 +2607,8 @@
     {
       "record_id": "recutSCFECzJZV",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "拍摄视频的时候即使连续拍摄，15分钟左右也会分割成其他几个文件，但是明明是连续文件却有2秒左右没有录制。\n我觉得这样的设计有问题\n如果是不良品的话能帮我更换的话就太好了。",
@@ -2620,8 +2620,8 @@
     {
       "record_id": "recuwI2cKPryEA",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "设置了“抖动”之后，拍摄的视频会变得非常的暗。",
@@ -2633,8 +2633,8 @@
     {
       "record_id": "recuzaBXNyMAru",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "按下相机的⏺️开关，显示数据传输速度很慢，不能录像。但是如果连接到手机，按下手机的录像按钮就可以录像了。",
@@ -2646,8 +2646,8 @@
     {
       "record_id": "recuEx6h1O9bQb",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "只要关闭一次相机电源，相机内的所有视频就会消失。",
@@ -2659,8 +2659,8 @@
     {
       "record_id": "recuKFuX5pMR6A",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "拍摄视频时文件会被分割，分割后的文件之间会出现未录制的时间。如何解决这个故障呢？",
@@ -2672,8 +2672,8 @@
     {
       "record_id": "recuVx98ULTCQd",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "我有 4 台你们的 Brave 7 LE 相机，我发现了一个我认为是 bug 的问题。所有相机都曾在某些时候出现过相同的情况。\n\n当录制时长超过 25 分钟时，相机会开始录制一个新文件。大约每 5 - 6 次出现这种情况时，相机就会复制一帧视频。我通过让它们拍摄一个高速时钟，然后逐帧查看生成的图像，追踪到了这个问题。一旦我知道要找什么，我就能在我用这些相机拍摄的各种视频中注意到同样的问题。\n\n我使用的是最新的固件 V1.3.D_T，以 1080P 30 帧每秒的模式拍摄。我开启了日期戳，使用自动曝光，但曝光补偿（EV）设置为 -1.0。这种情况的规律似乎是：\n- 第一个文件总是正常的。\n- 从第二个文件到第 N 个文件中，大约每 5 个文件就有 1 个会出现这种情况。\n- 当文件切换时（录制 25 分钟，即 45000 帧后），前 3 帧的时间间隔是正常的。第 4 帧会重复第 3 帧的内容。然后从第 5 帧开始又恢复正常。\n- 虽然从第 3 帧到第 4 帧的图像是 100% 相同的，但在我查看的每一个案例中，屏幕右下角的日期戳显示的秒数会从一个值变为另一个值。例如，第一帧的秒数可能以 “53” 结尾，而下一帧则以 “54” 结尾。\n\n我在文件的其他部分也查找过这个问题，到目前为止还没有发现。不过，在一个大视频中查找比较困难，所以在其他情况下也可能会出现这种问题。4 台相机都以相同的频率出现相同的问题，这就是为什么我怀疑这是某种固件 bug 导致那一帧被写入了两次。\n\n我刚刚意识到我可能遗漏了一个关键细节。相机还处于 H.265 模式。\n\n与出厂默认设置不同的所有设置如下：\n- H.265 模式\n- 1080P 30 帧每秒\n- 自动关机功能关闭\n- 日期戳开启\n- 曝光设置为 “自动”\n- 曝光补偿（EV）设置为 -1.0\n\n然后我开启 WiFi 模式，通过应用程序进行连接，断开连接后再关闭 WiFi 模式。这样做的唯一目的是从手机上设置相机时间。 ",
@@ -2685,8 +2685,8 @@
     {
       "record_id": "recuXLEbc8AJkX",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "视频大约15分钟后会自动停止录制，而设置的是无限录制时间。\n它似乎不会立即重新开始录制，时间上似乎有很大的间隔。 ",
@@ -2698,8 +2698,8 @@
     {
       "record_id": "recuXLMAfyF8Ye",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "下午好，我安装了更新，但车速达到 50 公里每小时后图像仍然会失真。有没有不会出现这个问题的型号呢？我需要把它安装在车把上，在西班牙把它安装在头盔上是被禁止的。我愿意购买另一个型号，但要能使图像稳定的。\n\n谢谢，祝好。\n\n相机菜单里没有调整、校准、图像失真或图像稳定的选项，我看到的只有防抖功能，我已经开启了，我给您发截图。 ",
@@ -2711,8 +2711,8 @@
     {
       "record_id": "recuXNktFJayBH",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "为什么会出现图像错误？",
@@ -2724,8 +2724,8 @@
     {
       "record_id": "recv27PrxMoM7B",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "APP问题",
         "content": "我将三星A23 5G手机里的2段视频和2张照片（花朵）传输进去了。在内置存储的“prove video”文件夹中，我可以用Akaso go应用打开视频，并且视频能正常播放。但在三星的“相册”应用中，照片（花朵）显示正常，视频却无法查看，提示“不支持的视频编码”。我该怎么办？",
@@ -2971,7 +2971,7 @@
     {
       "record_id": "recukPhvxRPGhu",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -2984,7 +2984,7 @@
     {
       "record_id": "recumTEtBEw19h",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -2997,7 +2997,7 @@
     {
       "record_id": "recuoUb3pdoFQS",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3010,7 +3010,7 @@
     {
       "record_id": "recuyHV3gTg12p",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3023,7 +3023,7 @@
     {
       "record_id": "recuz5h4jtyD7D",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3036,7 +3036,7 @@
     {
       "record_id": "recuzaBUmal2VH",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3049,7 +3049,7 @@
     {
       "record_id": "recuzOOb3XqubT",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3062,7 +3062,7 @@
     {
       "record_id": "recuA7r1XeCFEV",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3075,7 +3075,7 @@
     {
       "record_id": "recuD1woXyfi1i",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3088,7 +3088,7 @@
     {
       "record_id": "recuDMpYPsvlW7",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3101,7 +3101,7 @@
     {
       "record_id": "recuFFmcJX9hV0",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3114,7 +3114,7 @@
     {
       "record_id": "recuGl10y8hFFV",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3127,7 +3127,7 @@
     {
       "record_id": "recuJyvFX3jiRA",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3140,7 +3140,7 @@
     {
       "record_id": "recuJDPtSNcWM8",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3153,7 +3153,7 @@
     {
       "record_id": "recuNdTM6w9Qb4",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3166,7 +3166,7 @@
     {
       "record_id": "recuPR8v7zhWLB",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3179,7 +3179,7 @@
     {
       "record_id": "recuUdllZZbsnf",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3192,7 +3192,7 @@
     {
       "record_id": "recuV2JDVir4yW",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3205,7 +3205,7 @@
     {
       "record_id": "recuXdEIfzscgq",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3218,7 +3218,7 @@
     {
       "record_id": "recuXdV3My5XJA",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3231,7 +3231,7 @@
     {
       "record_id": "recv3a1BI7uQNn",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3244,7 +3244,7 @@
     {
       "record_id": "recv5ph6hhtYVq",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3257,7 +3257,7 @@
     {
       "record_id": "recv7BzfNCxVaY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3270,7 +3270,7 @@
     {
       "record_id": "recv7Lr4nPDMAz",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3283,7 +3283,7 @@
     {
       "record_id": "recv8NUuGkeLPM",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3296,7 +3296,7 @@
     {
       "record_id": "recvcX8uZxhoIp",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3309,7 +3309,7 @@
     {
       "record_id": "recvdlx7d9MENe",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3322,7 +3322,7 @@
     {
       "record_id": "recvdZyymilURo",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3335,7 +3335,7 @@
     {
       "record_id": "recveKKmPvFfmM",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3348,7 +3348,7 @@
     {
       "record_id": "recvfCf7fgkKO4",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -3634,8 +3634,8 @@
     {
       "record_id": "recunneUVlPDZV",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "20-客户体验或者其他，12-开关机问题",
         "severity": "产品问题",
         "content": "试着打开尝试启动了，但是不能开机。明明是为了记录重要的瞬间而购买的，如果只是一瞬间的故障，也不能安心使用。而且还沾了脏东西，很不舒服。",
@@ -3660,7 +3660,7 @@
     {
       "record_id": "recurTFLypTNkB",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3673,7 +3673,7 @@
     {
       "record_id": "recuN9nzmOHwH8",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3686,7 +3686,7 @@
     {
       "record_id": "recuOVf4EzJov3",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3699,7 +3699,7 @@
     {
       "record_id": "recuWaxII62wdJ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3712,7 +3712,7 @@
     {
       "record_id": "recuY3lZ2UCdvs",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3725,7 +3725,7 @@
     {
       "record_id": "recuZhkE071qKS",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3738,7 +3738,7 @@
     {
       "record_id": "recv2pf4V588gH",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3751,7 +3751,7 @@
     {
       "record_id": "recv76RukCxJFG",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3764,7 +3764,7 @@
     {
       "record_id": "recv8eQhEC38YY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3777,7 +3777,7 @@
     {
       "record_id": "recv8kVvVT7hFZ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3790,7 +3790,7 @@
     {
       "record_id": "recv8stncLtyEN",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3803,7 +3803,7 @@
     {
       "record_id": "recv95Bf3CRytq",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3816,7 +3816,7 @@
     {
       "record_id": "recvfwlXAYNODS",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
@@ -3946,8 +3946,8 @@
     {
       "record_id": "recumI3jf3oDwe",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "关于相机启动时的故障。\n作为前提插入了相同的SD卡的状态，如附件所示，启动了10次的情况下，其中，数次如附件一样显示“卡的格式”和“卡错误，请更换卡”。应。\n到现在为止，在上述显示的每次，正常读取SD卡之前，反复重新启动照相机的电源勉强使用。另外，显示“卡的格式”的时候，为了不让卡的数据消失，每次都按“否”来回避。\n只是，前几天，在操作照相机的时候，在电池余量还很充足的状态下，在SD卡读取的状态下，触摸画面操作的时候，画面变成了漆黑，再次启动照相机的时候数据全部消失的状况。不是删除数据，而是被格式化了。不过，总算进行了数据恢复的安排，吸取了数据。)\n以防万一，以为是SD卡方面有问题，前几天，手边的SD卡另外“AKASO microSDXC卡”新购买128 gb (https://www.amazon.co.jp/gp/product/b0cx8wg762/)”了,但这里也出现了同样的症状。\n另外，如果将同样的SD卡放入手边的其他厂商的运动相机中使用的话，完全没有出现这样的症状，所以考虑的可能不是SD卡，而是相机本身的问题。\n再次强调，对于开头所记载的同样的SD卡，如果有能读取卡的情况，“卡的格式”和“卡错误，请更换卡”的表示是相机的规格吗??或者有类似的情况发生吗?\n另外，特别是发生像前几天发生的数据消失的现象的话会很困扰，关于我们这边，如果没有办法的话，能不能请您告诉我能不能保证修理和更换。",
@@ -3959,8 +3959,8 @@
     {
       "record_id": "recuqRwt1xrCHJ",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "电源键和菜单键的长按太硬，插入切换和菜单键一起的操作性相当差。\n不适合拍想拍的瞬间。\n在操作快停止的时候，误操作麦克风>外部设定，旅行视频的一半变成了没有声音。\n第一天SD卡出现错误导致数据飞走，精神上非常疲惫…。\n因为是第一次使用action cam，所以不知道，贵的产品在这方面的使用习惯会不会不一样呢?\n一边想这边的不习惯也是原因，一边即使摄影难也用iPhone努力的好。。",
@@ -3972,8 +3972,8 @@
     {
       "record_id": "recurPtvVeuDmE",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "配件问题",
         "content": "将SD卡（AKASO U3 64gb）用SD卡读卡器直接连接到个人电脑\n之后无法识别图像文件。\n（即使插入了SD卡，也会显示请插入文件）",
@@ -3985,8 +3985,8 @@
     {
       "record_id": "recus6oSwu8qmV",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "放入了市面购买的卡片，不过有时会有请格式化相机的指示。\n有时即使放入卡片，也会显示“无卡片”。",
@@ -3998,8 +3998,8 @@
     {
       "record_id": "recuxh89hiNefa",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "SD卡可以拍照，不能拍视频。显示速度较慢",
@@ -4011,8 +4011,8 @@
     {
       "record_id": "recuIAT4CLg1Me",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "客户使用的SD卡合格但是提示卡慢，更新固件也无法解决问题",
@@ -4024,8 +4024,8 @@
     {
       "record_id": "recuMF5avFq5sB",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "即使连接到电脑，也显示没有文件。然而，SD卡的容量已满，所以数据本身应该还留在SD卡中，但视频却无法显示。",
@@ -4037,8 +4037,8 @@
     {
       "record_id": "recuTJCQ49Ph0t",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "配件问题",
         "content": "尝试了两张不同的 SD 卡（PNY 和新的闪存卡），对它们都进行了格式化，但你的视频素材有一半损坏了。将寄一张免费的 SD 卡。 ",
@@ -4050,8 +4050,8 @@
     {
       "record_id": "recuXTjmEyPssj",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "我最近购买的相机有固件更新吗？我使用的是一张三星64GB的存储卡，其速度等级为U3，但我一直收到“存储卡忙碌”的错误提示。尽管我已经正确格式化了存储卡。是这张存储卡出问题了吗？",
@@ -4063,8 +4063,8 @@
     {
       "record_id": "recv6JLsez7zyy",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "我在黑色星期五促销期间通过澳大利亚亚马逊购买了一台Akaso Brave 7 LE运动相机，准备作为圣诞节礼物送给儿子，要寄到新西兰。不幸的是，使用一天后，存储卡插槽就出问题了。相机显示“存储卡损坏”。以下是我已尝试过的解决方法：将相机恢复出厂设置；检查固件是否为最新版本；清洁存储卡；检查兼容性——存储卡是兼容的，昨天还能正常使用；格式化存储卡——我无法在相机中进行格式化，所以按照网上的说明在电脑上格式化了。存储卡在电脑上能正常使用，也能被格式化。但当我把它放回相机时，相机仍然显示“存储卡损坏”。这让我觉得问题出在相机的存储卡读卡器上，而不是存储卡本身。请问你能给我一些建议吗？我儿子真的很喜欢这台相机，我们希望能让它恢复正常使用。",
@@ -4232,7 +4232,7 @@
     {
       "record_id": "recuHKGn44waWj",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -4245,7 +4245,7 @@
     {
       "record_id": "recuUY6bhSmIGJ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -4258,7 +4258,7 @@
     {
       "record_id": "recuV8iyeR2i9P",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "产品问题",
@@ -4271,7 +4271,7 @@
     {
       "record_id": "recuVT5R1A6hry",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -4284,7 +4284,7 @@
     {
       "record_id": "recuVU3dbYcGxU",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -4297,7 +4297,7 @@
     {
       "record_id": "recuWi7rAP9rJT",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -4310,7 +4310,7 @@
     {
       "record_id": "recuX2eGztIk5b",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -4323,7 +4323,7 @@
     {
       "record_id": "recv3P0YXKL0g7",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -4336,7 +4336,7 @@
     {
       "record_id": "recv7imLFpY3M0",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -4349,7 +4349,7 @@
     {
       "record_id": "recveKmjEs1sxQ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -4362,8 +4362,8 @@
     {
       "record_id": "recuLlfzDdZqWt",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "发热问题，06-电池",
         "severity": "产品问题",
         "content": "刚买没多久，电池续航时间却只有 1 个多小时。屏幕有噪点。机身发热，不取下电池就无法操作。希望能换成能正常使用的产品。 ",

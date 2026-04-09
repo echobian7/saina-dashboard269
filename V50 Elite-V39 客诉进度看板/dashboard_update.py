@@ -24,7 +24,7 @@ APP_TOKEN    = "VAfebiDfvaZqmFspcspcRvc3nxc"
 TABLE_ID     = "tbl14Coc7bPWkMcH"
 VIEW_ID      = "vew63RkpSZ"
 TITLE        = "V50 Elite-V39 客诉进度看板"
-FIELD_MAP    = {"status": "进度", "level": "问题分级", "category": "问题归属", "severity": "问题类型", "content": "翻译", "no": "客诉id", "date": "填表时间", "retest": "售后处理方案及进度"}
+FIELD_MAP    = {"status": "状态", "level": "问题分级", "category": "问题归属", "severity": "问题类型", "content": "翻译", "no": "客诉id", "date": "填表时间", "retest": "售后处理方案及进度"}
 DONE_VALUES  = ["\u5df2\u89e3\u51b3", "\u5173\u95ed"]
 TOP_LEVEL    = "S"
 
@@ -91,7 +91,7 @@ def embed(data):
     if PLACEHOLDER in html:
         html = html.replace(PLACEHOLDER, js)
     else:
-        html = re.sub(r"const EMBEDDED_DATA = (\{.*?\});", f"const EMBEDDED_DATA = {js};", html, flags=re.DOTALL)
+        html = re.sub(r"const EMBEDDED_DATA = \{.*?\};", lambda _: f"const EMBEDDED_DATA = {js};", html, flags=re.DOTALL)
     HTML_FILE.write_text(html, encoding="utf-8")
 
 def main():

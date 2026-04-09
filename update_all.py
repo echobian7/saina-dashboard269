@@ -39,3 +39,23 @@ if failed:
     sys.exit(1)
 else:
     print(f"全部 {len(scripts)} 个看板更新成功 ✓")
+
+# 自动推送到 GitHub Pages
+import os
+from datetime import datetime
+
+print("\n▶ 同步到 GitHub Pages...")
+os.chdir(str(base))
+timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+cmds = [
+    ["git", "add", "."],
+    ["git", "commit", "-m", f"auto update {timestamp}"],
+    ["git", "push"],
+]
+for cmd in cmds:
+    r = subprocess.run(cmd, text=True, capture_output=True)
+    if r.returncode != 0 and "nothing to commit" not in r.stdout + r.stderr:
+        print(f"  ✗ {' '.join(cmd)} 失败: {r.stderr.strip()}")
+        break
+else:
+    print("  ✓ GitHub Pages 已同步")

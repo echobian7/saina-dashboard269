@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-08 18:08:57",
+  "updated_at": "2026-04-09 20:22:02",
   "title": "Brave8 客诉进度看板",
   "field_map": {
-    "status": "进度",
+    "status": "状态",
     "level": "问题分级",
     "category": "问题归属",
     "severity": "问题类型",
@@ -163,7 +163,7 @@
     {
       "record_id": "recuX2AGzZAacf",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键，11-APP问题",
         "severity": "配件问题",
@@ -176,7 +176,7 @@
     {
       "record_id": "recukytHrNsVHR",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -189,7 +189,7 @@
     {
       "record_id": "reculSy27ZnMaF",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -202,7 +202,7 @@
     {
       "record_id": "reculYNzi1yQ9U",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -215,7 +215,7 @@
     {
       "record_id": "recunQq07T4ZrY",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -228,7 +228,7 @@
     {
       "record_id": "recuqLMegyOsOY",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -241,7 +241,7 @@
     {
       "record_id": "recuz9LUB600bi",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "产品问题",
@@ -254,7 +254,7 @@
     {
       "record_id": "recuzaBXNypHQp",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -267,7 +267,7 @@
     {
       "record_id": "recuExv6FTEy1Y",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -280,7 +280,7 @@
     {
       "record_id": "recuGl2NjdorrP",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "用户体验问题",
@@ -293,7 +293,7 @@
     {
       "record_id": "recuGlGqbYkcxh",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -306,7 +306,7 @@
     {
       "record_id": "recuIoDt9FbXY1",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -319,7 +319,7 @@
     {
       "record_id": "recuIYUGrCNxFh",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -332,7 +332,7 @@
     {
       "record_id": "recuIZdT5ISzyc",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "产品问题",
@@ -345,7 +345,7 @@
     {
       "record_id": "recuJyQ9rRWY89",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -358,7 +358,7 @@
     {
       "record_id": "recuKFuQXFV6fN",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -371,7 +371,7 @@
     {
       "record_id": "recuLNjPL88htz",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -384,7 +384,7 @@
     {
       "record_id": "recuQCxw7sIfwE",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -397,7 +397,7 @@
     {
       "record_id": "recuRbGpaPNDqz",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -410,7 +410,7 @@
     {
       "record_id": "recuVINt7fra0s",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -423,7 +423,7 @@
     {
       "record_id": "recuXe0xwcEgu5",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -436,7 +436,7 @@
     {
       "record_id": "recv1Fft528gu3",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "产品问题",
@@ -449,7 +449,7 @@
     {
       "record_id": "recv8VBe5rn8Vd",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -462,7 +462,7 @@
     {
       "record_id": "recv96Mg72w0JS",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -475,7 +475,7 @@
     {
       "record_id": "recuPR8v7zCOVx",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池，发热问题",
         "severity": "配件问题",
@@ -488,7 +488,7 @@
     {
       "record_id": "recule2znbuuDf",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -501,7 +501,7 @@
     {
       "record_id": "reculo02Ss1KJK",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -514,7 +514,7 @@
     {
       "record_id": "recungMCVdxwF4",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -527,7 +527,7 @@
     {
       "record_id": "recuo3xZByNwqh",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -540,7 +540,7 @@
     {
       "record_id": "recuoU6DsHG05u",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -553,7 +553,7 @@
     {
       "record_id": "recuoUb3pdp7SY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -566,7 +566,7 @@
     {
       "record_id": "recupa1kEqhStA",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -579,7 +579,7 @@
     {
       "record_id": "recutSCFgqSgVT",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -592,7 +592,7 @@
     {
       "record_id": "recuu4h29lz16W",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -605,7 +605,7 @@
     {
       "record_id": "recuvZmfZp0etN",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -618,7 +618,7 @@
     {
       "record_id": "recuywpPCJuUkv",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -631,7 +631,7 @@
     {
       "record_id": "recuFLcn38asDa",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -644,7 +644,7 @@
     {
       "record_id": "recuMz5q45wBj3",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -657,7 +657,7 @@
     {
       "record_id": "recuPiFoJJsIlR",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -670,7 +670,7 @@
     {
       "record_id": "recuQBSTVpLJH1",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -683,7 +683,7 @@
     {
       "record_id": "recuXdatq0RmOa",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -696,7 +696,7 @@
     {
       "record_id": "recuXvwqNJ6sfk",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -709,7 +709,7 @@
     {
       "record_id": "recv2MPkPOZZAq",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -735,8 +735,8 @@
     {
       "record_id": "recukF9XGqUelu",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "虽然是2023年10月在亚马逊上购买的，但是无法开启/关闭电源，也无法连接相机和智能手机。\n请您多多关照。",
@@ -748,8 +748,8 @@
     {
       "record_id": "reculYNzi14k8g",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "上周拍摄了儿童野棒球比赛的视频。\n拍摄开始后约5分钟录像停止了。\n\n这个机种夏天不能使用吗?",
@@ -761,8 +761,8 @@
     {
       "record_id": "recuwBJMrP4uG0",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "在 2.7k 下连续拍摄 45 分钟后，它就死机了，或者根本无法工作。影片的颜色渐变很差，希望收到详细的电子邮件。请给我发电子邮件，让我们排除故障。",
@@ -774,8 +774,8 @@
     {
       "record_id": "recuAvfvUgmVe7",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "相机在使用过程中无预警关机，对产品不满意，希望退货退款",
@@ -787,8 +787,8 @@
     {
       "record_id": "recuGlEEJhtSIY",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "尝试下载拍摄的视频时，相机就会死机然后自动关机。",
@@ -800,8 +800,8 @@
     {
       "record_id": "recuH598r1Tr9A",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "无法进行任何操作，设置和操作都不能使用。因为本体产品的初期不良，希望交换对应。",
@@ -813,8 +813,8 @@
     {
       "record_id": "recuYgB788S74O",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "我那部勇敢者8（Brave 8）相机最近有点不对劲。有时候它能开机，但屏幕会直接卡住。还有些时候，它开机后屏幕却是黑的，只有微弱的背光。偶尔它能正常工作几秒钟，然后又卡住了。\n\n就在刚才，它突然自己重置了！当时相机没插存储卡。\n\n我能进行重置操作。我会留意它能正常工作多久。 ",
@@ -826,8 +826,8 @@
     {
       "record_id": "recv3aacYnC81D",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "关闭WiFi时相机死机。通常发生在我浏览照片、下载视频时，此时关闭WiFi，相机就会死机。有没有办法强制关闭相机？因为相机死机时，我需要把相机从外壳中取出，然后取出电池。",
@@ -839,7 +839,7 @@
     {
       "record_id": "recuqFLmcTUyy0",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机，06-电池",
         "severity": "产品问题",
@@ -852,8 +852,8 @@
     {
       "record_id": "recuN9rtPJM0O9",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机，录像及回放问题，发热问题",
         "severity": "产品问题",
         "content": "前言：\n在接下来的部分，我会描述一些使用该相机时出现的问题。我在不同的条件下（寒冷环境（滑雪）、炎热环境（海滩）），采用不同的设置（语言、节能模式、分辨率、帧率、使用如下所列的不同SD卡……）对其进行了测试，结果始终相同。\n- 相机在录制时死机并丢失视频（几乎每次都会发生）\n    在录制视频时，相机会死机，只能通过取出电池来重置。\n    这样一来视频就丢失了。这种情况通常发生在开始录制后的30秒到2分钟之间，并且在从4K 50帧 16:9到1080p 25帧的各种设置下，以及延时摄影模式中都会出现。\n- 相机在录制时死机，但保留视频，无法传输到应用程序（超平滑模式；偶尔发生）\n    在超平滑模式下录制视频时，有时相机会死机，但视频会被保留。\n    然而，应用程序不允许以超平滑模式将视频复制到手机上（在这种情况下，普通复制功能正常）。\n- 相机与应用程序在复制视频时连接中断\n    要将视频从相机复制到应用程序，必须每次复制大约3个视频，不能再多。否则，连接会中断（有时相机还会死机）。\n- 无法在潮湿环境中操作相机\n    相机对触摸没有反应（这在我看来是正常的），但它在锁定模式下也无法进行录制，因为屏幕上频繁显示解锁符号。\n\n我期待建设性的解决方案。\n感谢并致以最诚挚的问候，\n安德里亚斯·里瑟",
@@ -865,7 +865,7 @@
     {
       "record_id": "recutw5TLqAFxw",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机，发热问题",
         "severity": "产品问题",
@@ -878,7 +878,7 @@
     {
       "record_id": "recv89t0fFcjWi",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机，发热问题",
         "severity": "产品问题",
@@ -891,8 +891,8 @@
     {
       "record_id": "recuFnxMuk5Fzu",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题",
         "severity": "配件问题",
         "content": "尊敬的客户服务团队，\n\n我在亚马逊英国购买了 Akaso Brave 8 相机。对于我的旅行来说，这是一款非常完美且非常方便的相机。\n不幸的是，它最近出现了充电问题。\n即使我充满电，它也无法保持电量。指示灯总是变红。\n\n你能帮我修一下吗？",
@@ -904,7 +904,7 @@
     {
       "record_id": "recv9Ep4dyqAYz",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "充电问题，发热问题",
         "severity": "产品问题",
@@ -917,8 +917,8 @@
     {
       "record_id": "recuniYnPQubdX",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "我是AKASO Brave 8的用户，上个月我更新了固件\n从那以后，就再也用不上超级防抖了。\n手机应用程序AKASO GO也是最新版本。\n新固件可能有bug，请您修正bug，\n能告诉我降级的方法吗?\n请多关照。",
@@ -930,8 +930,8 @@
     {
       "record_id": "recuAnOFPfms76",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "用户体验问题",
         "content": "预录时长太短",
@@ -943,8 +943,8 @@
     {
       "record_id": "recuHKGn44HZYJ",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "配件问题",
         "content": "明明放入满电的电池，却显示没电了",
@@ -956,8 +956,8 @@
     {
       "record_id": "recuHRwViHuzJi",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "我的新 Akaso Brave 8 相机出现了一些问题。\n我最近使用了三次，每次使用时间都很短。\n上次使用时，电池显示电量低的错误信息。\n相机甚至有 20 分钟都无法开机。\n之后才充满电。\n昨晚我又将电池充满。\n今天早上开机后，30 秒就显示电量低，然后便关机了。\n有办法解决这个问题吗？\nPauline",
@@ -969,8 +969,8 @@
     {
       "record_id": "recuJyQ9rRd6qc",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "不知道是电池的问题还是本体的问题，有时候虽然有电池的剩余量显示，但是画面仍然会闪烁然后自动关机，可以拜托更换吗？",
@@ -982,8 +982,8 @@
     {
       "record_id": "recuHKGn44zJVZ",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "APP问题",
         "content": "跑步等开启超级防抖拍摄时，画面偶尔会细微移动。",
@@ -995,8 +995,8 @@
     {
       "record_id": "recv9osq6J6dX6",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "我把我的Brave 8相机放在台面上。我点击录制4k 30fps的视频，10分钟后拿起相机时，我才发现它根本没在录。实际上，它只录了1分18秒就停止录制了。所以你能解释一下为什么录制会停止吗？如果这台相机录1分18秒就停止，那它对我来说毫无用处。请告诉我可能是什么原因导致了这个问题。现在我非常生气。",
@@ -1008,8 +1008,8 @@
     {
       "record_id": "recurPtvVehHJm",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题，发热问题",
         "severity": "产品问题",
         "content": "连接usb线充电时，没有录制成功，此外还有发热，录制文件不能保存的情况。",
@@ -1060,7 +1060,7 @@
     {
       "record_id": "recukF9XGqFv8H",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1073,7 +1073,7 @@
     {
       "record_id": "recut7JJViVzhW",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1086,7 +1086,7 @@
     {
       "record_id": "recux5qUb8AvD2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1099,7 +1099,7 @@
     {
       "record_id": "recuFFf0wgVOSA",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1112,7 +1112,7 @@
     {
       "record_id": "recuJaUvfXzZVz",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1125,7 +1125,7 @@
     {
       "record_id": "recuMF5avFtLzp",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1138,7 +1138,7 @@
     {
       "record_id": "recuRyU0mzUcrt",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1151,7 +1151,7 @@
     {
       "record_id": "recuUS6hL5SwMP",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1164,7 +1164,7 @@
     {
       "record_id": "recuV3SAsudWdB",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1177,7 +1177,7 @@
     {
       "record_id": "recv0r6HN5ytm2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1190,7 +1190,7 @@
     {
       "record_id": "recv8UZ6Jmo7wF",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1203,7 +1203,7 @@
     {
       "record_id": "recvcXkCmnru6a",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1230,7 +1230,7 @@
       "record_id": "recur93Gfuu27W",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "买了勇敢8但是打不开\n有线但还是打不开...\n相机未在水下使用过",
@@ -1243,7 +1243,7 @@
       "record_id": "recuvhQt0ozt8i",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "你好，\n我已经大约三个月没用过相机了。上次用的时候，设备运行良好。我试过网站上的方法：但我的相机仍然无法打开。\n如果能提供详细的说明来解决这个问题，我将不胜感激。如果您需要更多信息、图片或视频来帮助解决问题，请告诉我，我会提供给您。",
@@ -1256,7 +1256,7 @@
       "record_id": "recuypYXaid4ne",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "我在亚马逊上买了 akaso 相机，刚刚在假期尝试设置它。该商品无法打开，触摸屏无法使用。请您提供建议",
@@ -1269,7 +1269,7 @@
       "record_id": "recuHh1Kcy6ga0",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "目前，每次我尝试用相机录制时，它都会在一到两分钟内关闭。它没有过热。它装有新电池，因为我们认为它是原装电池，但事实并非如此，它们已充满电，现在有一张新的 SD 卡。SD 卡在崩溃后也无法获取任何视频。目前，相机是哑巴。我精通技术，并尝试过对此进行故障排除。",
@@ -1282,7 +1282,7 @@
       "record_id": "recuLliTD7uUlX",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "我通过乐天购买了Brave8。\n- 进行户外拍摄（主要是少年棒球比赛）\n- 电量100%\n- 已安装保护套\n\n在上述情况下进行拍摄时，拍摄经常会在几分钟左右就停止，这让我很困扰。\n相机也无法开机，后来查看录制的文件，发现只拍摄了几分钟。 ",
@@ -1295,7 +1295,7 @@
       "record_id": "recuTgiSIXZSKE",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "我购买了Akaso Brave 8，真正开始使用是在2025年4月5日母校的春季庆典上，第二次使用是在5月7日的大阪2025年世博会。使用时相机机身发热，所以我只能用一会儿停一会儿。\n\n回家第二天，我在查看图像数据时，屏幕上出现了“机身过热，请关机”的提示信息，同时开始倒计时，随后相机自动关机。之后，相机就再也无法开机了。\n\n因此，我希望能对相机进行维修，所以想咨询一下返厂维修的地址。 ",
@@ -1308,7 +1308,7 @@
       "record_id": "recuUbW51hByIe",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "你好，我刚收到我的 Brave 8，因为我想从我的 Brave 7 进行升级。我觉得是我妈妈在亚马逊上给我买的这个当礼物，但这台设备刚开箱就无法开机。我已经试过两块不同的、充满电的电池了，你能帮忙排查一下故障吗？\n\n刚开箱就无法开机，我试过两块不同的、充满电的电池。我已经排查了一个小时的故障，我觉得这台设备有故障。 ",
@@ -1321,7 +1321,7 @@
       "record_id": "recuV8dFICJlso",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "我一直在使用我的产品，突然它就坏了。无论我怎么尝试，它都无法开机，说实话，我现在对于接下来该怎么做感到非常迷茫和困惑。",
@@ -1334,7 +1334,7 @@
       "record_id": "recv7iLtCvd3Dt",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "大家好，我给妻子买了AKASAO Brave 8运动相机作为生日礼物，因为她在Instagram上创作冒险/动作内容。她的GoPro是旧款，前段时间坏了，很久以前她就跟我提过你们的产品更好。长话短说，她的Brave 8刚开箱就无法开机。我们已经尝试了所有可用的故障排除方法，比如换充电线、换SD卡等，但似乎都不管用，它开不了机，也好像充不进电。我们做了很多努力想让它工作，但都失败了。这太令人沮丧了。请问能帮忙解决吗？",
@@ -1347,7 +1347,7 @@
       "record_id": "recvf3jlRmImah",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "最后一次使用大约两个月后，想再次使用时却无法开机了。即使更换电池或通过USB充电时按下电源按钮也无法启动。",
@@ -1360,7 +1360,7 @@
       "record_id": "reculifx7DVy7L",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "12-开关机问题，发热问题",
         "severity": "产品问题",
         "content": "今天为了试镜在房间里拍摄了固定视频，大概4分半钟就关机了。\n(4K30 16:9)\n相机变得异常火热。\n因为这样用不了，所以想更换机器。\n如果不能换货，我想退款。",
@@ -1503,7 +1503,7 @@
       "record_id": "recuDMpYPsWONv",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "前几天购买了akaso brave8，但是在拍摄高画质视频的时候，主机画面上显示了“SD卡速度慢”。SD卡容量为256gb。降低画质就可以拍照了。",
@@ -1516,7 +1516,7 @@
       "record_id": "recuHKGn445nGK",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "我买了相机brave 8，想用SD卡 (512gb c10/U3/ v30 / 4k /UHD-1)，结果被告知速度很慢，这个规格不能用吗？",
@@ -1529,7 +1529,7 @@
       "record_id": "recuWyXluPLOSG",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "你好，我在Bravia 8里插入了一张128兆的SD卡，想要进行4K拍摄时，却显示“卡容量不足”。请问需要多大容量的卡呢？",
@@ -1542,7 +1542,7 @@
       "record_id": "recv1alyXuvPUh",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "配件问题",
         "content": "我的Akaso Brave 8相机有问题，不能拍照也不能录视频，而且显示“存储卡速度慢”。我发了出现的通知截图。存储卡是手册上要求的那种，参数也符合。我已经格式化过存储卡了，而且这张micro SD卡还是新的。另外我也试过一张2 GB的新卡，结果还是一样。我也把相机恢复了出厂设置，但还是不行，问题依旧。",
@@ -1555,7 +1555,7 @@
       "record_id": "recv89tV74Z1Ri",
       "fields": {
         "status": "",
-        "level": "",
+        "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
         "content": "即使插入SD卡，相机也无法启动。我使用的是512GB以下、U3的SD卡。",
@@ -1593,7 +1593,7 @@
     {
       "record_id": "reculifx7DhyHd",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1606,7 +1606,7 @@
     {
       "record_id": "recuo3xZByvNIY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1619,7 +1619,7 @@
     {
       "record_id": "recuSvhjLu3rLC",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1632,7 +1632,7 @@
     {
       "record_id": "recuUt0EprTihm",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1645,7 +1645,7 @@
     {
       "record_id": "recuVvqZf6in9K",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1658,7 +1658,7 @@
     {
       "record_id": "recuVCTAhEeyTc",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1671,7 +1671,7 @@
     {
       "record_id": "recuXGkPKSooun",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1684,7 +1684,7 @@
     {
       "record_id": "recuYb8JBgmGEP",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1697,7 +1697,7 @@
     {
       "record_id": "recv0dGoVJ2Rnf",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1710,7 +1710,7 @@
     {
       "record_id": "recv38X5ABCHTl",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1723,7 +1723,7 @@
     {
       "record_id": "recv3aaVWDEBvU",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1736,7 +1736,7 @@
     {
       "record_id": "recv3arUWVEHEh",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1749,7 +1749,7 @@
     {
       "record_id": "recv6saU72TEIa",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1775,7 +1775,7 @@
     {
       "record_id": "recunQfTlMGC7h",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1788,7 +1788,7 @@
     {
       "record_id": "recupfMkRXNTvM",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1801,7 +1801,7 @@
     {
       "record_id": "recuprPTVqWghF",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1814,7 +1814,7 @@
     {
       "record_id": "recussWzJRU3KK",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1827,7 +1827,7 @@
     {
       "record_id": "recuteEeeMcjU0",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1840,7 +1840,7 @@
     {
       "record_id": "recuvLFgtf6Qpj",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1853,7 +1853,7 @@
     {
       "record_id": "recuF1lg30VpWs",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1866,7 +1866,7 @@
     {
       "record_id": "recuJIHDrIXGmk",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1879,7 +1879,7 @@
     {
       "record_id": "recuNdRZei0V6P",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1892,7 +1892,7 @@
     {
       "record_id": "recuPiDTPzr4Yr",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1905,7 +1905,7 @@
     {
       "record_id": "recuPiDTPz4f9r",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1918,7 +1918,7 @@
     {
       "record_id": "recuVOfxddCWyM",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1931,7 +1931,7 @@
     {
       "record_id": "recuWVfrWmBefh",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1944,7 +1944,7 @@
     {
       "record_id": "recv2ixJxAFNf2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1957,7 +1957,7 @@
     {
       "record_id": "recv7FHNKPO6nj",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-08 18:07:31",
+  "updated_at": "2026-04-09 20:23:34",
   "title": "V50 Elite-V39 客诉进度看板",
   "field_map": {
-    "status": "进度",
+    "status": "状态",
     "level": "问题分级",
     "category": "问题归属",
     "severity": "问题类型",
@@ -111,7 +111,7 @@
     {
       "record_id": "reculo2f237MCk",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -124,7 +124,7 @@
     {
       "record_id": "reculSxS4rhYC6",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -137,7 +137,7 @@
     {
       "record_id": "recuA6n3Qd6Vk3",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -150,7 +150,7 @@
     {
       "record_id": "recuDetWplsQUb",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -163,7 +163,7 @@
     {
       "record_id": "recuEDQN03oCJu",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -176,7 +176,7 @@
     {
       "record_id": "recuYf87ESs9Dx",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -189,7 +189,7 @@
     {
       "record_id": "recuZAizqLRake",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -202,7 +202,7 @@
     {
       "record_id": "recuZAj6n9mDuA",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -215,7 +215,7 @@
     {
       "record_id": "recv0T3fvb1UcI",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -228,7 +228,7 @@
     {
       "record_id": "recv2vGsgZ0Ir7",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -241,7 +241,7 @@
     {
       "record_id": "recvcHlGZUoSaI",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -293,7 +293,7 @@
     {
       "record_id": "recuxJOmsDc6JS",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键，08-防水壳",
         "severity": "产品问题",
@@ -553,7 +553,7 @@
     {
       "record_id": "recukyUDfqmsAY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -566,7 +566,7 @@
     {
       "record_id": "recukPf8oztyBz",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -579,7 +579,7 @@
     {
       "record_id": "reculeejNPDBeP",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -592,7 +592,7 @@
     {
       "record_id": "recultWFLpnaHc",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -605,7 +605,7 @@
     {
       "record_id": "recumJHl1vgZKV",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -618,7 +618,7 @@
     {
       "record_id": "recuqWW0sqI1Gf",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -631,7 +631,7 @@
     {
       "record_id": "recutjEyNtHunO",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -644,7 +644,7 @@
     {
       "record_id": "recutYmCfW6WUh",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -657,7 +657,7 @@
     {
       "record_id": "recuy1FSqqrpFA",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -670,7 +670,7 @@
     {
       "record_id": "recuy7jhUkwvKu",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -683,7 +683,7 @@
     {
       "record_id": "recuyqBdhH7mS2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -696,7 +696,7 @@
     {
       "record_id": "recuz5eb9j4IaG",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -709,7 +709,7 @@
     {
       "record_id": "recuAFEGL0gL7v",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -722,7 +722,7 @@
     {
       "record_id": "recuFhHt4fiBPd",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -735,7 +735,7 @@
     {
       "record_id": "recuFhM85g1L6s",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -748,7 +748,7 @@
     {
       "record_id": "recuHFDxK1iYxy",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -761,7 +761,7 @@
     {
       "record_id": "recuN9wCxNYRxj",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -774,7 +774,7 @@
     {
       "record_id": "recuSYZIN3vx5D",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -787,7 +787,7 @@
     {
       "record_id": "recuUtarZbzqA3",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "产品问题",
@@ -800,7 +800,7 @@
     {
       "record_id": "recuWhh8wUHxcx",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -813,7 +813,7 @@
     {
       "record_id": "recuWRrreXRCQ4",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -826,7 +826,7 @@
     {
       "record_id": "recuWX8y4pRSuU",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -839,7 +839,7 @@
     {
       "record_id": "recuXSGVaAy6GV",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -852,7 +852,7 @@
     {
       "record_id": "recuZQuE5oqoqa",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -865,7 +865,7 @@
     {
       "record_id": "recv2ZjOm0mIpp",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -878,7 +878,7 @@
     {
       "record_id": "recv3akVbcmfZe",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -891,7 +891,7 @@
     {
       "record_id": "recv3azY6YtwSj",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -904,7 +904,7 @@
     {
       "record_id": "recv5vxZxA29Ov",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -917,7 +917,7 @@
     {
       "record_id": "recvdqxrd0fvSY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -995,8 +995,8 @@
     {
       "record_id": "recv89bTkAoNYf",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "您好，充电接口已熔化。相机无法再充电和使用。此致",
@@ -1008,8 +1008,8 @@
     {
       "record_id": "recuu4lcayR6VJ",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "自从我买了这个相机后，我一直没能用它。我试过多张 SD 卡，包括不同尺寸和品牌的。我多次检查了要求。我测试了视频和延时摄影，它总是删除我的文件或根本不保存它们。我试了 10 次，但总是出现同样的问题。我需要一个更好的相机，这似乎是软件问题。\n我执行了出厂重置和 SD 卡重置。问题仍然存在。固件是 v50 elite 20230626-v3",
@@ -1021,8 +1021,8 @@
     {
       "record_id": "recuvSvzNdxuTM",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "您好，我购买了 Akasio V50 Elite 运动相机，但遇到了技术问题。一旦我更换电池，我就会收到一条错误消息，并且必须重新格式化 SD 卡，从而删除其中的文件。这不可能是正确的。",
@@ -1034,8 +1034,8 @@
     {
       "record_id": "recuUj96cNOmKo",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "语音控制不起作用。\n\n如果我使用按钮，遥控器可以正常工作，但语音控制不行，似乎麦克风无法正常工作。\n我已经重置了摄像头并将语言设置为英语，现在可以正常工作了。\n但如果我将语言设置为意大利语，就无法正常工作。\n好吧，这样也行。 ",
@@ -1047,8 +1047,8 @@
     {
       "record_id": "recvcXjgbVr3vA",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "Akaso V50 Elite。当我把SD卡从相机里取出来，放进转接器，然后连接到我的MacBook Pro时，什么反应都没有。用我的旧款Mac时，我按照同样的步骤就能立刻看到文件。",
@@ -1060,8 +1060,8 @@
     {
       "record_id": "recuUd1beYBfF0",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "我无法启动视频录制模式。\n当我开始录制视频时，红色指示灯亮起表示正在录制，但它会立即停止，没有录制出视频。\n如果我对相机进行出厂重置，它可以正常工作，但当相机关机再开机后，又会出现同样的问题。\n我尝试使用了多张不同的SD卡，有Akaso 64GB的，也有三星等其他品牌不同大小的卡。 ",
@@ -1112,7 +1112,7 @@
     {
       "record_id": "recuuIP2kOjAcq",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1125,7 +1125,7 @@
     {
       "record_id": "recuzKfROEvRUP",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1138,7 +1138,7 @@
     {
       "record_id": "recuDXTx9qzAnw",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1151,7 +1151,7 @@
     {
       "record_id": "recuElsWGl2ulX",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1164,7 +1164,7 @@
     {
       "record_id": "recuGlVFw2LLyR",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1177,7 +1177,7 @@
     {
       "record_id": "recuJ9KhPUynPJ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1190,7 +1190,7 @@
     {
       "record_id": "recuJfUZi6IKXB",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1203,7 +1203,7 @@
     {
       "record_id": "recuKqdnMzwcUc",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1216,7 +1216,7 @@
     {
       "record_id": "recuSpTzJviCju",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1229,7 +1229,7 @@
     {
       "record_id": "recuUjpgdhN3rT",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1242,7 +1242,7 @@
     {
       "record_id": "recuURN61rxw94",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1255,7 +1255,7 @@
     {
       "record_id": "recuVfcrF8IkXK",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1268,7 +1268,7 @@
     {
       "record_id": "recuZEJ69P3pov",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1281,7 +1281,7 @@
     {
       "record_id": "recv2RN7oGGhFD",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1294,7 +1294,7 @@
     {
       "record_id": "recv77IQAfcaYd",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1307,7 +1307,7 @@
     {
       "record_id": "recvcXkrDpROZn",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -1385,8 +1385,8 @@
     {
       "record_id": "recuxJOne5Iqjl",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "开机卡logo",
@@ -1398,7 +1398,7 @@
     {
       "record_id": "recukIXhQFGBUt",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "07-遥控器",
         "severity": "配件问题",
@@ -1411,7 +1411,7 @@
     {
       "record_id": "recuD1IoI43GpF",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "07-遥控器",
         "severity": "配件问题",
@@ -1424,7 +1424,7 @@
     {
       "record_id": "recuSl4rids7TG",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "07-遥控器",
         "severity": "配件问题",
@@ -1437,7 +1437,7 @@
     {
       "record_id": "recuTaAVZWYmCC",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "07-遥控器",
         "severity": "配件问题",
@@ -1450,7 +1450,7 @@
     {
       "record_id": "recuTUw34P0Bqt",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "07-遥控器",
         "severity": "配件问题",
@@ -1463,7 +1463,7 @@
     {
       "record_id": "recuWtfe3PBL4Q",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "07-遥控器",
         "severity": "配件问题",
@@ -1476,7 +1476,7 @@
     {
       "record_id": "recv6LhCNe75lb",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "07-遥控器",
         "severity": "配件问题",
@@ -1489,7 +1489,7 @@
     {
       "record_id": "recvale6C91P2A",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "07-遥控器",
         "severity": "配件问题",
@@ -1502,7 +1502,7 @@
     {
       "record_id": "recut7M638eVcx",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "07-遥控器，漏件",
         "severity": "配件问题",
@@ -1515,7 +1515,7 @@
     {
       "record_id": "recuu4eLf7PlND",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "配件问题",
@@ -1528,7 +1528,7 @@
     {
       "record_id": "recuz5h4wuvJSN",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -1541,7 +1541,7 @@
     {
       "record_id": "recuDoRiabh9ZT",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -1554,7 +1554,7 @@
     {
       "record_id": "recv8ah0u0RffM",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -1567,7 +1567,7 @@
     {
       "record_id": "recv6tD2afvncE",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题，04-结构装配",
         "severity": "配件问题",
@@ -1606,8 +1606,8 @@
     {
       "record_id": "recvbz3vnlYjZL",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "11-APP问题，14-SD卡问题",
         "severity": "产品问题",
         "content": "我从事信息技术行业，因此已经进行了广泛的故障排除以排除用户错误。我已确定两个持续存在的软件漏洞：\n\n1. WiFi握手失败：手机成功连接到相机的接入点，但应用未能确认会话，导致连接循环。我已经清除了缓存、重新安装了应用并重置了网络堆栈。\n\n2. 存储挂载错误：相机在启动时经常提示“格式化SD卡”，即使是已在设备中格式化过的经过验证的U3卡也是如此。\n\n由于我已确认硬件没有问题，问题出在固件层面，因此需要更新文件来解决。我自己可以完成手动刷机过程。",
@@ -1736,7 +1736,7 @@
     {
       "record_id": "recv3a1FXKUcsb",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "漏件，14-SD卡问题",
         "severity": "产品问题",

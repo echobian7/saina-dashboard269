@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-08 18:07:17",
+  "updated_at": "2026-04-09 20:23:44",
   "title": "V50Pro 客诉进度看板",
   "field_map": {
-    "status": "进度",
+    "status": "状态",
     "level": "问题分级",
     "category": "问题归属",
     "severity": "问题类型",
@@ -20,7 +20,7 @@
     {
       "record_id": "recvdkCuZapnbb",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "01-显示屏",
         "severity": "产品问题",
@@ -33,7 +33,7 @@
     {
       "record_id": "recvg4knLrxaxF",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "01-显示屏",
         "severity": "产品问题",
@@ -137,7 +137,7 @@
     {
       "record_id": "recuk62lSu6Prl",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -150,7 +150,7 @@
     {
       "record_id": "recuJxnQrHMXYO",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -163,7 +163,7 @@
     {
       "record_id": "recv15ZDJJvCYx",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "产品问题",
@@ -176,7 +176,7 @@
     {
       "record_id": "recv65PFaCMaRi",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -189,7 +189,7 @@
     {
       "record_id": "recv7jO8BL1ndn",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "产品问题",
@@ -202,7 +202,7 @@
     {
       "record_id": "recv8aZg1EV975",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -254,7 +254,7 @@
     {
       "record_id": "recuk4C2UMjOQy",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -267,7 +267,7 @@
     {
       "record_id": "recukyoFd92gIj",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -280,7 +280,7 @@
     {
       "record_id": "recukytH2GC0WR",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -293,7 +293,7 @@
     {
       "record_id": "recukJcViDrbPv",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -306,7 +306,7 @@
     {
       "record_id": "recuoIyp10NFcc",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -319,7 +319,7 @@
     {
       "record_id": "recuurbK6RszBQ",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -332,7 +332,7 @@
     {
       "record_id": "recux65d0gpskh",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -345,7 +345,7 @@
     {
       "record_id": "recuy9rFeny4Du",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -358,7 +358,7 @@
     {
       "record_id": "recuzOwt63Rp1h",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -371,7 +371,7 @@
     {
       "record_id": "recuAGo1WXp7yq",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -384,7 +384,7 @@
     {
       "record_id": "recuCLLug4fA6E",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -397,7 +397,7 @@
     {
       "record_id": "recuFFmcJX0Fua",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -410,7 +410,7 @@
     {
       "record_id": "recuI1kXZ0e379",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -423,7 +423,7 @@
     {
       "record_id": "recuKoLo0MzOkX",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -436,7 +436,7 @@
     {
       "record_id": "recuN2LQhDhfH8",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -449,7 +449,7 @@
     {
       "record_id": "recuNdPsYFRw56",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -462,7 +462,7 @@
     {
       "record_id": "recuNdR1Y0tWZD",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -475,7 +475,7 @@
     {
       "record_id": "recuOg9RXYa3XO",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -488,7 +488,7 @@
     {
       "record_id": "recuPXAYWN866I",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -501,7 +501,7 @@
     {
       "record_id": "recuSl2UoUSRq7",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -514,7 +514,7 @@
     {
       "record_id": "recuSvveSMIS8d",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -527,7 +527,7 @@
     {
       "record_id": "recuTaqYTbEfMT",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -540,7 +540,7 @@
     {
       "record_id": "recuTwIhxbAlq9",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -553,7 +553,7 @@
     {
       "record_id": "recuTwJKrV7uDn",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -566,7 +566,7 @@
     {
       "record_id": "recuTyhH2Jb1ZD",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -579,7 +579,7 @@
     {
       "record_id": "recuTK10pyjrnE",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -592,7 +592,7 @@
     {
       "record_id": "recuUjRjs0eKHm",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -605,7 +605,7 @@
     {
       "record_id": "recuUR2UTqRSbv",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -618,7 +618,7 @@
     {
       "record_id": "recuVxGTrQGlt6",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -631,7 +631,7 @@
     {
       "record_id": "recuVyfchtBJcg",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -644,7 +644,7 @@
     {
       "record_id": "recuWggZ5zIEvX",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -657,7 +657,7 @@
     {
       "record_id": "recuWmcMxGBTqa",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -670,7 +670,7 @@
     {
       "record_id": "recuWn4mVsW1U1",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -683,7 +683,7 @@
     {
       "record_id": "recuWxKRDHrIdu",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -696,7 +696,7 @@
     {
       "record_id": "recuXvNYabSEOM",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -709,7 +709,7 @@
     {
       "record_id": "recuXClKpBSo1d",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -722,7 +722,7 @@
     {
       "record_id": "recuXNu3rqtp3p",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -735,7 +735,7 @@
     {
       "record_id": "recv0x5MdfBoAy",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -748,7 +748,7 @@
     {
       "record_id": "recv1tNbSOiEmF",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -761,7 +761,7 @@
     {
       "record_id": "recv2u5RwVOl1b",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -774,7 +774,7 @@
     {
       "record_id": "recv2v6P7zGaBz",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -787,7 +787,7 @@
     {
       "record_id": "recv6hiZvDKFt2",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -800,7 +800,7 @@
     {
       "record_id": "recv6JrWTUQFsU",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -813,7 +813,7 @@
     {
       "record_id": "recv6KtZypCwha",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -826,7 +826,7 @@
     {
       "record_id": "recv76HZYhuZva",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -839,7 +839,7 @@
     {
       "record_id": "recv7GGHTK6pNh",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -852,7 +852,7 @@
     {
       "record_id": "recv7GJhzXznIa",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -865,7 +865,7 @@
     {
       "record_id": "recv9zLNbyotDD",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -878,7 +878,7 @@
     {
       "record_id": "recv9A2njI1T1J",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -891,7 +891,7 @@
     {
       "record_id": "recvcHGsTnKLvD",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "08-防水壳",
         "severity": "配件问题",
@@ -904,7 +904,7 @@
     {
       "record_id": "recv7pgM5bNunO",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
@@ -917,7 +917,7 @@
     {
       "record_id": "recvaI7WvtwQV0",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
@@ -930,8 +930,8 @@
     {
       "record_id": "recuWt4qHy2sI4",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "关于你索要购买凭证的要求，我没有，因为这台相机是我从一个朋友那里得到的。\n我遇到的问题是，用户手册上说这台相机具备延时摄影功能，但我的相机菜单里并没有这个选项。 ",
@@ -943,8 +943,8 @@
     {
       "record_id": "recv5OFbQ0U05e",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题，录像及回放问题",
         "severity": "产品问题",
         "content": "我大约三周前买了这台相机，它似乎频繁出现错误。买了之后我发现这些都是非常常见的问题。无论使用哪种画质设置——4K、2.7K、1080p还是720p，录制都会中断；不管我用什么设置，相机都无法正常工作。我无法将录制时间设置为一分钟、三分钟或五分钟，这真的让我很恼火，因为我原本以为这台相机质量更好。我用的内存卡是最新一代的U3，已经正确格式化，而且我已经多次将相机恢复出厂设置，但它还是一直出故障。你能提供什么解决方案吗？\n\n显然，不管我选择哪种分辨率——4K、2.7K、1080p、720p——屏幕上显示的所有功能都无法使用，无论是否开启图像稳定功能。我已经试过三张不同的超高速SD卡，现在我在几个论坛上看到，这是这类相机的常见问题，一个已知的缺陷。我不知道是否需要更新，但相机确实无法正常工作。\n\n视频质量绝对很低，我直接在相机上看，也在电脑上看了。即使在花园里录制，光线也几乎不足。如果在室内录制，即使光线充足，画质也很差。我已经把所有东西都打包准备退货了，所以不会再拆开包装去拍另一个视频，因为之前的视频我已经删掉了。",
@@ -956,8 +956,8 @@
     {
       "record_id": "recvb5Jn1M820C",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "视频创建完成后，我想在iPhone上以播放模式观看。按下手机上的开始按钮后，屏幕中央会出现一个旋转的箭头。这个状态即使等待很多分钟也没有变化——没有开始播放！手机上的这个播放界面也无法关闭。相机也无法再操作——无法关闭。只有取出电池，相机才能关闭。多次尝试后，每次都会出现上述情况。我哪里操作错了？（这台相机是二手购买的！）",
@@ -969,8 +969,8 @@
     {
       "record_id": "recumTxeoyIyfA",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "V50 Pro 相机今天骑行后停止工作。无法通过 USB 线充电或启动。更换充满电的电池后，按下电源按钮屏幕从黑色变为深蓝色。保持深蓝色，直到取出电池。\n\n尝试在没有电池和 SD 卡的情况下启动。相机无法启动。屏幕保持深蓝色，直到取出电缆。",
@@ -982,8 +982,8 @@
     {
       "record_id": "recuDTr3UnrRye",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "相机无法开机",
@@ -995,8 +995,8 @@
     {
       "record_id": "recuUhvtzMJos1",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "相机死机了，WiFi 灯亮着，但为什么屏幕无法开启呢？\n我无法使用相机。\n我的相机死机了，无法开机，但 WiFi 是开启的。原因是什么？我该如何解决？\n之前已经能正常开机了，但现在变成这样了。 ",
@@ -1008,8 +1008,8 @@
     {
       "record_id": "recvd2Z0nbQumT",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "嗨，我买了这款相机作为家庭度假的礼物。我们刚度假回来，终于有机会试用它，在此之前从未使用过。当我们尝试打开相机时，它完全坏了，没有任何反应——我要求全额退款，我们会将损坏的相机退还给您。感谢您的理解。我的邮箱是[已移除电子邮件地址]。",
@@ -1034,8 +1034,8 @@
     {
       "record_id": "recuxJOne52jzD",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "我的 akaso v50 pro 相机自从打开后就一直卡在徽标屏幕上。请给我发送固件更新以修复此问题。S/N 代码为 FK231120V10380。",
@@ -1047,8 +1047,8 @@
     {
       "record_id": "recuWxDck1yCfF",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "我的V50 pro相机在显示AKASO启动界面后就无法继续开机了。无论是使用充满电的电池还是通过USB线供电，结果都是一样。我该如何重启我的相机呢？\n\n我已经试过使用USB线和充满电的电池，但相机没有任何反应。 ",
@@ -1060,7 +1060,7 @@
     {
       "record_id": "recuVU2WChYoCJ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "13-WiFi问题",
         "severity": "APP问题",
@@ -1073,7 +1073,7 @@
     {
       "record_id": "recv2N3eBMUEIc",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "13-WiFi问题",
         "severity": "产品问题",
@@ -1086,7 +1086,7 @@
     {
       "record_id": "recv7jnE72KRKg",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "13-WiFi问题",
         "severity": "产品问题",

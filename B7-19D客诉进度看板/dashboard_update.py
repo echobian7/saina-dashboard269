@@ -91,7 +91,7 @@ def embed(data):
     if PLACEHOLDER in html:
         html = html.replace(PLACEHOLDER, js)
     else:
-        html = re.sub(r"const EMBEDDED_DATA = (\{.*?\});", f"const EMBEDDED_DATA = {js};", html, flags=re.DOTALL)
+        html = re.sub(r"const EMBEDDED_DATA = \{.*?\};", lambda _: f"const EMBEDDED_DATA = {js};", html, flags=re.DOTALL)
     HTML_FILE.write_text(html, encoding="utf-8")
 
 def main():

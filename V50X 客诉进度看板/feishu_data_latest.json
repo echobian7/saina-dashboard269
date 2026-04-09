@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-08 18:07:45",
+  "updated_at": "2026-04-09 20:23:51",
   "title": "V50X 客诉进度看板",
   "field_map": {
-    "status": "进度",
+    "status": "状态",
     "level": "问题分级",
     "category": "问题归属",
     "severity": "问题类型",
@@ -124,7 +124,7 @@
     {
       "record_id": "recungMCVd4KlS",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -137,7 +137,7 @@
     {
       "record_id": "recuqSmIM9i5Rw",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -150,7 +150,7 @@
     {
       "record_id": "recuux13IbchgF",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -163,7 +163,7 @@
     {
       "record_id": "recuDj04IpOJ5l",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -176,7 +176,7 @@
     {
       "record_id": "recuPcOSOgcR0Y",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "用户体验问题",
@@ -189,7 +189,7 @@
     {
       "record_id": "recv8JYjE7RSwo",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -202,7 +202,7 @@
     {
       "record_id": "recvc7WGvxJAR2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -215,7 +215,7 @@
     {
       "record_id": "recvcRkbn7Hj2l",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题",
         "severity": "产品问题",
@@ -228,7 +228,7 @@
     {
       "record_id": "recuWsUCGA5AMS",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "03-声音问题，17-图像品质",
         "severity": "产品问题",
@@ -397,7 +397,7 @@
     {
       "record_id": "recupnuwOpBEWy",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键",
         "severity": "产品问题",
@@ -410,7 +410,7 @@
     {
       "record_id": "recus5bKtIWNwC",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键",
         "severity": "产品问题",
@@ -423,7 +423,7 @@
     {
       "record_id": "recuGZrGx5fXNQ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键",
         "severity": "产品问题",
@@ -436,7 +436,7 @@
     {
       "record_id": "recuGZXHbJUyq7",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键",
         "severity": "产品问题",
@@ -449,7 +449,7 @@
     {
       "record_id": "recuQTs4DQ9i2R",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键",
         "severity": "产品问题",
@@ -462,7 +462,7 @@
     {
       "record_id": "recuXGeA19WQxI",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键",
         "severity": "配件问题",
@@ -475,7 +475,7 @@
     {
       "record_id": "recv7BN8tEmiQr",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键",
         "severity": "产品问题",
@@ -488,7 +488,7 @@
     {
       "record_id": "recv95Px0EvdDH",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键",
         "severity": "产品问题",
@@ -501,7 +501,7 @@
     {
       "record_id": "recvbyT0dSaJMR",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键",
         "severity": "产品问题",
@@ -514,7 +514,7 @@
     {
       "record_id": "recv105jtmNEOq",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键，08-防水壳",
         "severity": "产品问题",
@@ -527,7 +527,7 @@
     {
       "record_id": "recv6m4klLS0xy",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键，录像及回放问题",
         "severity": "产品问题",
@@ -540,7 +540,7 @@
     {
       "record_id": "recuu4qQRQX7WW",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键，12-开关机问题",
         "severity": "产品问题",
@@ -553,7 +553,7 @@
     {
       "record_id": "recuqRwt1xypvv",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -566,7 +566,7 @@
     {
       "record_id": "recusQ2DFvZnrQ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -579,7 +579,7 @@
     {
       "record_id": "recut7WdsjteDp",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -592,7 +592,7 @@
     {
       "record_id": "recuviiHSv6wx9",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "产品问题",
@@ -605,7 +605,7 @@
     {
       "record_id": "recuvMo7S5OArs",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -618,7 +618,7 @@
     {
       "record_id": "recuy8uLrTxeZL",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -631,7 +631,7 @@
     {
       "record_id": "recuF2sRC0k8nH",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -644,7 +644,7 @@
     {
       "record_id": "recuJIxnFWpyJj",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "用户体验问题",
@@ -657,7 +657,7 @@
     {
       "record_id": "recuQwwzr76bPt",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -670,7 +670,7 @@
     {
       "record_id": "recuWawXfS5TMv",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -683,7 +683,7 @@
     {
       "record_id": "recv0jQxqxCHNi",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "用户体验问题",
@@ -696,7 +696,7 @@
     {
       "record_id": "recvcY84LA136K",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -1281,8 +1281,8 @@
     {
       "record_id": "recuk5mgu7HoRK",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "连接WIFI操作时常死机，无法关机",
@@ -1294,8 +1294,8 @@
     {
       "record_id": "recuqSmqggR5M2",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "我换了另外一个满格电池，按了电源，没到3分钟，屏幕又黑屏了，关电源还是没反应",
@@ -1307,8 +1307,8 @@
     {
       "record_id": "recuSpP1vGMLYr",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "WIFI页面卡住无法操作这句话本身就是中文，若你是想要翻译成英文，答案是：The WIFI page is frozen and cannot be operated.",
@@ -1320,8 +1320,8 @@
     {
       "record_id": "recv0ZyJjgKWvt",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "容易死机",
@@ -1333,8 +1333,8 @@
     {
       "record_id": "recvcH3q9aW3xQ",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
         "content": "你好，我们第一次使用Akaso 50 X时，屏幕就像附件中显示的那样卡住了。我们购买了这款相机的防水壳。请提供如何解决此问题的帮助。我们已经给它充电了，电池装进去时会亮红灯，但屏幕是黑的，我们也把SD卡取出来了，但没有任何帮助。感谢回复。这些步骤仍然没有解决屏幕卡住的问题。开机键不起作用。只有把电池取出来再装回去，它才会开机。",
@@ -1359,7 +1359,7 @@
     {
       "record_id": "recv9z6rsPOdPv",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机，14-SD卡问题",
         "severity": "产品问题",
@@ -1385,8 +1385,8 @@
     {
       "record_id": "recuzUNR2FOe04",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "如果不插入电池，我无法打开相机电源。我有几块电池，我知道电池可以正常工作，我也尝试了几种不同的电缆。",
@@ -1398,8 +1398,8 @@
     {
       "record_id": "recuVfZZ5Jccdl",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "大约4个月前，我购买了你们的Akaso V50X相机。\n不幸的是，这台相机出了问题。它只有在插上电源插头时才能开机，一旦拔掉插头，它就会自动关机。我们试了4块充满电的电池，但相机就是无法开机。因此，我们完全无法使用这台相机，这非常令人失望。我们三周后就要开启欧洲之旅，去寻找新家，并且想记录我们的旅程。\n感谢你们提供的电池。我们已经给它们充好电并在相机上试过了。不幸的是，情况还是和以前一样。我对这台相机失去了信心，可能会换一台。其他用户使用V50X时是否也遇到过同样的问题呢？我现在有哪些解决办法？\n由于我们9月15日起要去旅行6周，期待你们尽快回复。 ",
@@ -1411,8 +1411,8 @@
     {
       "record_id": "recv6gw3UoDDPu",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
         "content": "我有两台从亚马逊购买的Akaso V50X运动相机，之前也跟你聊过这个。😉👍🏻较新的那台电源接口是USB-C的，旧的那台是Micro-USB接口。我骑摩托车时总是把相机连接到电池组上使用，因为长途骑行时内置电池很快就会没电。大概在过去六个月左右，那台Micro-USB接口的相机经常会突然断开连接，显示仅使用内置电池供电。我换过不同的数据线和电池组，但结果都一样。我确定问题出在接口本身，因为只要轻轻晃动一下相机端的数据线，它就又能识别到外接电源了。说实话，我不确定这台相机是否还在保修期内，但如果过保了，你能给我一些维修建议吗？",
@@ -1424,8 +1424,8 @@
     {
       "record_id": "recuRPPehgZ7sS",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "我需要为我的 v50x 找到新的固件。",
@@ -1437,8 +1437,8 @@
     {
       "record_id": "recv4uh9I7u09Z",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "我使用AKASO V50X已经有两年半左右了，最近录制的视频里显示的时间比正确时间快了7个多小时。一开始我以为是机身内的时间设置错了，检查后发现设置的是正确时间。【时间水印】的时间显示，除了AKASO V50X的时间设置外，还有其他地方可以设置吗？",
@@ -1450,8 +1450,8 @@
     {
       "record_id": "recv5pDu23PJlg",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "当我把视频和照片传到我的电脑或手机（Pixel 8 Pro）上时，日期是正确的，但尽管文件名中显示的是拍摄照片或视频的正确时间，EXIF数据中的时间却不同，毫无规律。我已经确认相机的日期和时间设置都是正确的，但这个问题一直存在。我还想知道是否可以将固件更新到最新版本以及如何更新（OTA，或者你们给我发送文件）。",
@@ -1463,8 +1463,8 @@
     {
       "record_id": "recv8sEsHMTF8Y",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
         "content": "您好，我在V50X相机上遇到的问题如下：1. 设置中没有驾驶模式，而我需要将其用作行车记录仪。2. 有时图像稳定功能会变得异常。开启相机后，尽管相机静止放在桌上，图像仍会跳动。重启可以解决此问题。请提供最新的固件。当前版本信息在附件照片中。顺祝商祺，米莎",
@@ -1476,8 +1476,8 @@
     {
       "record_id": "recux5r1Kjg9iG",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "10-固件问题，其他问题",
         "severity": "用户体验问题",
         "content": "没预录功能不方便",
@@ -1489,8 +1489,8 @@
     {
       "record_id": "recuprRmAvyFAp",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "循环录像的时间设定每次都回到1分钟，不能固定吗?",
@@ -1502,8 +1502,8 @@
     {
       "record_id": "recuVBrWSlyGAm",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "他/她/您无法观看视频。\n\n注：“No puede”在西班牙语里，根据语境可以表示“他不能”“她不能”“您不能”等含义，这里不明确具体所指对象，所以将几种可能都列出。 ",
@@ -1515,8 +1515,8 @@
     {
       "record_id": "recuY9HGPidFAS",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "我在（设备型号）上遇到了一些问题，问题详情如下：\n每次我骑摩托车时用手机连接WiFi，按下手机上的红色录制按钮，录制计时器会启动，看起来像是在录制，但后来我将视频保存到手机时，里面只有V50x本应不进行录制时的内容，而没有本应录制时的内容。\n如果你查看就会发现，大约有一半的时间，录制按钮显示未在录制，而本该录制的时候却没有录制。 ",
@@ -1528,8 +1528,8 @@
     {
       "record_id": "recveblG40xZYz",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
         "content": "我有一个在亚马逊上从你那里买的V50X相机。这东西太差劲了。音质和视场角都很糟糕。视频不能连续录制，还经常卡顿，导致视频出现跳帧。我想把这个相机和我买的麦克风一起退货。我没有使用防水壳，还试了两个外接麦克风，情况并没有好转。我用了你提供的SD卡，还有另外两张我在其他相机上能用的SD卡。用这三张卡都有同样的问题。10%的折扣不足以让我不退掉这个不能正常工作的产品。",
@@ -1567,8 +1567,8 @@
     {
       "record_id": "recuo1VD6Fdhuc",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "即使接通电源线，相机也无法开启",
@@ -1580,8 +1580,8 @@
     {
       "record_id": "recuo3xZByL1r8",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "你好，我已经用了四年多的AKASO产品了。\nV50X→Brave 4 Pro→V50X。\n前两架因为我的疏忽摔坏了。\n但是这次换了电池之后，画面就不显示了。\n它能打开电源吗?它是蓝色的。\n除此之外，任何操作都不会改变。\n这个可以请您修理吗?\n这是一台性价比非常高的相机，我想继续使用它。\n等待着好的答复。\n请多关照",
@@ -1593,8 +1593,8 @@
     {
       "record_id": "recuo3xZBybQSJ",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "v50x突然不开机了。\n用电池、USB连接也插不进去。\n怎样才能修好呢?",
@@ -1606,8 +1606,8 @@
     {
       "record_id": "recuoSKeCUhCww",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "当我们打开相机时，屏幕一片空白。我们尝试取出电池，然后重新装上，插入电源，然后打开。相机有故障吗？",
@@ -1619,8 +1619,8 @@
     {
       "record_id": "recussXQMGK9HP",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "相机运行正常，我使用了一整天。晚上我回去取下电池，用充电器给两块电池充电。第二天我装上一块电池，试着使用相机，但没有启动。我试了另一块电池，但还是不工作。前一天我使用相机时，它一直放在防水盒里。我刚把它从盒子里拿出来，就把电池取了出来。\n请注意，在它停止工作的最后一天，我注意到上下两个按钮不起作用。\n我试着取出 SD 卡和电池，并接上电源，但还是没用。",
@@ -1632,8 +1632,8 @@
     {
       "record_id": "recuz5h4daTiaD",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "我收到了 AKASO V50 作为生日礼物。给电池充电后，它无法工作。我联系了客服，收到了替换电池和充电器。给它们充电后，它仍然无法工作。此时，我假设相机本身有问题。我的亚马逊订单号是：\n114-5935054-3741845。",
@@ -1645,8 +1645,8 @@
     {
       "record_id": "recuCDVMy4SAjY",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "早上好\n一个月前我从亚马逊购买了一台 V50X 相机。\n它不再想打开。\n您能否告诉我如何将其退回给您，以便我能够得到能够正常工作的产品？\n我的相机没有在水下使用过。",
@@ -1658,8 +1658,8 @@
     {
       "record_id": "recuD1kN3AnfEt",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "嗨，我似乎无法打开相机。我们在雪地里（非常寒冷的天气）用过几次。哎呀，它打不开。最初充电时有蓝灯和红灯，然后当我充电后打开它时，AKASO 屏幕亮了——但马上就熄灭了。现在我无法让它真正打开或做任何事情。请提供建议。我们是 2024 年 12 月买的。谢谢，娜塔莉",
@@ -1671,8 +1671,8 @@
     {
       "record_id": "recuDiVv3B0DK8",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "早上好，\n\n我儿子的相机 V50 X - SN：FXC240429V200236 - IC：24369-V50X，FCC ID：2ASV5-V50X 无法再开机。电池已充电但无法开机。\n\n该怎么办？我们需要将其寄给您修理吗？它在保修期内，他一个半月前圣诞节收到了它。\n\n真挚地，\n\n吉列莫特先生",
@@ -1684,8 +1684,8 @@
     {
       "record_id": "recuDHmR2GHdUl",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "它再也无法开机，我取出了 SIM 卡和电池，它还是无法使用",
@@ -1697,8 +1697,8 @@
     {
       "record_id": "recuF60kLdjmyD",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "但现在我的相机停止工作了，完全报废了。我需要您的专业建议，我该怎么办。",
@@ -1710,8 +1710,8 @@
     {
       "record_id": "recuFhM20GKcHx",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "我的相机装上电池后无法开机。插入电源后可以正常使用。我尝试过单独给电池充电，也尝试过给相机内的电池充电。",
@@ -1723,8 +1723,8 @@
     {
       "record_id": "recuFhM8vWgGpv",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "您好，您的相机可以通过两种方式充电，第一种是先将它们从相机中取出，然后放在电池座上进行充电，或者第二种是将它们留在相机中，然后使用提供的电缆进行充电，但这是行不通的，这意味着当我骑自行车出去时，我无法将其直接连接到外部电池上！！！虽然一开始这个选项运行得很好。提前致谢",
@@ -1736,8 +1736,8 @@
     {
       "record_id": "recuIp9GSgwDA1",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "相机无法启动，电池已在其他产品上试过。",
@@ -1749,8 +1749,8 @@
     {
       "record_id": "recuN9u5ZBRwv1",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "当我按住电源按钮3秒钟来开机或关机时，它似乎没有反应。",
@@ -1762,8 +1762,8 @@
     {
       "record_id": "recuRRiWCA5W9J",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "使用两三次后，相机现在无法正常工作了。无法开启。我已经按照故障排除步骤进行了操作。接下来我们该怎么做呢？",
@@ -1775,8 +1775,8 @@
     {
       "record_id": "recuSvvf05fFDR",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "我尝试上传视频，但因文件太大被退回了。\n\n相机曾在配套的水下外壳中用于水下拍摄。\n\n当取出电池和存储卡，使用相机附带的数据线将其连接到正确的输出充电器时，相机无法启动。屏幕左侧的红灯亮着，但上方的蓝灯不亮。按下前面的模式按钮3秒钟也不起作用。\n\n希望这些信息能有所帮助。 ",
@@ -1788,8 +1788,8 @@
     {
       "record_id": "recuSBFDPUKfHe",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "您好，我在亚马逊上买了一台V50x相机。使用一次后，我想更换电池，之后相机就再也打不开了，无论是使用电池还是连接电源都不行。我试图查看这款相机是否可以重置，但似乎不行；将相机连接到电脑时，有一个红色指示灯亮起，但电脑无法识别相机。您能提供一些帮助吗？谢谢。 ",
@@ -1801,8 +1801,8 @@
     {
       "record_id": "recuTKcaiSBxoZ",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "无法开机；无法点亮（具体结合语境，这里“enciende”常见用于电器、灯等设备无法启动或点亮的情况） ",
@@ -1814,8 +1814,8 @@
     {
       "record_id": "recuUR31GMSzmX",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "这台GoPro自6月底以来使用了几次，现在无法正常工作，也无法开机了。请负责处理退货和换货事宜，谢谢。\n另外，我也没有收到存储卡，所以我用了我相机里原有的存储卡。没有收到SD存储卡，这正常吗？谢谢。 ",
@@ -1827,8 +1827,8 @@
     {
       "record_id": "recuWlXdEnH3ld",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "运动相机开机一会儿就关机了。",
@@ -1840,8 +1840,8 @@
     {
       "record_id": "recuX7PV4958ca",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "正常使用三次后，相机又不能用了。\n我第一次用它来进行浮潜。\n包装盒是密封的。\n因为你们这有缺陷的相机，我无法拍摄视频或照片，来作为我在埃及浮潜和潜水度假的纪念了。我买它就是为了这次假期，可它根本靠不住，真可惜。 ",
@@ -1853,8 +1853,8 @@
     {
       "record_id": "recv3rz7eWU2aJ",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "早上好，您好。我联系您是因为我的相机无法正常开机。有时它能正常开机，但一旦关机，就无法再次开机。我已经重置过相机，但问题仍然存在。期待您的回复。\n您好，这台相机没有在水下使用过，也没有被摔过。电池是充满电的。当它开机时，一切正常，但一旦关机，就无法再次开机。\n我是二手购买的这台相机，所以没有购买收据。",
@@ -1866,8 +1866,8 @@
     {
       "record_id": "recv8m5dbAomNv",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "相机无法开机了。\n我从未在水下使用过它；我把它装在自行车头盔上，用于上下班通勤时的安全录像。它也总是锁在AKASO包装盒里附带的“防水壳”中，以防路上下雨。我从未不使用保护壳就使用它。\n此外，我从未让相机发生过任何意外或受到任何损伤；它看起来像全新的一样。\n我尝试取出电池和SD卡，并按住按钮3秒钟，但没有任何反应。只有这个红色的灯（可能是表示它已正确连接到电源）。电池似乎已充满电。",
@@ -1879,8 +1879,8 @@
     {
       "record_id": "recv9oXPy01ue6",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "我多次尝试通过网站和客服联系你们，但遗憾的是都没有成功。我于2024年2月在亚马逊上订购了一台Akaso V50x。我办理了2年的保修，即保修期到2026年2月有效。我的相机已经一年多不能使用了。只要我把存储卡插进去，相机就会变得滚烫然后自动关机。我想把相机和配件寄回去并申请保修。遗憾的是，我对这台相机的期望更高，它比预想的更快就坏了。附件是我的发票。",
@@ -1892,8 +1892,8 @@
     {
       "record_id": "recvdlTIt96RI6",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "最近几周，出现了“随机开关机”的情况……今天早上，先是拍了一段视频（ras可能是指“正常”或“顺利”），之后就完全无法开机了。尝试更换电池但没有效果。没有浸水或受到撞击，使用环境温度适宜。\n\n我进行了重置，但没有成功……\n\n连接到电脑显示屏幕是正常工作的（！）……但无法通过电源按钮进行任何操作\n\n按照您的流程，详见附件视频……屏幕一直是黑的。",
@@ -1905,8 +1905,8 @@
     {
       "record_id": "recvehskpelUFT",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
         "content": "我买了一个v50x和一个记忆棒，但它不能用。屏幕上只显示“无文件”？它就是不能用。我不知道还能怎么向你证明它开不了机。",
@@ -1918,8 +1918,8 @@
     {
       "record_id": "recv9yU1vGRcHj",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "12-开关机问题，17-图像品质",
         "severity": "产品问题",
         "content": "我只知道质量比应有的差，因为我朋友自己有一台V50X，对比之下质量要好得多。实际上我现在又遇到了一个全新的问题。我的设备尽管自上次发邮件以来一直未被触碰、放在室内、处于关机状态并放在保护壳中，却无法开机。请查看附件视频。",
@@ -2308,8 +2308,8 @@
     {
       "record_id": "recuxJOne5Z4RF",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "开机卡logo",
@@ -2321,8 +2321,8 @@
     {
       "record_id": "recuy3ArPZQK3s",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "我们刚买了一台 v50x 相机，用了一个小时，现在当我们打开它时，相机显示欢迎屏幕，似乎无法启动。我们取出电池和存储卡，然后将其连接到电脑，相机打开，但问题仍然存在，请参阅附图。\nimage0.jpeg",
@@ -2334,8 +2334,8 @@
     {
       "record_id": "recuIj7oAJSLMI",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "我的相机仍然无法使用。我尝试了你们工作人员提供的所有解决方案，但都不起作用。相机启动时，它停在“Akazo”屏幕上。\n我能保证换一台相机吗？请告诉我该怎么办……",
@@ -2347,8 +2347,8 @@
     {
       "record_id": "recuNSdzuzUDWK",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "我在 12 月买了这台相机，直到最近它一直都运行良好。我可以打开相机，相机会发出声音，屏幕上显示“Akaso v50x”，但我无法进行其他操作。要关闭相机，我必须取出电池。我已经尝试取出电池和存储卡，还试过不同的充电器。你能帮我解决这个问题吗？谢谢。",
@@ -2360,8 +2360,8 @@
     {
       "record_id": "recuXRUhvBtlHF",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "19-开机卡LOGO",
         "severity": "产品问题",
         "content": "当我打开相机时，它在显示标志画面时卡顿。\n仍然停留在标志画面。",
@@ -2464,7 +2464,7 @@
     {
       "record_id": "recuv6ln6z49mG",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -2477,7 +2477,7 @@
     {
       "record_id": "recuvuMwQkbhSw",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -2490,7 +2490,7 @@
     {
       "record_id": "recuyqM8DtJdNp",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -2503,7 +2503,7 @@
     {
       "record_id": "recuzfZdmnAPoG",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -2516,7 +2516,7 @@
     {
       "record_id": "recuzgIPyMUgw7",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -2529,7 +2529,7 @@
     {
       "record_id": "recuQluXRgoQni",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -2542,7 +2542,7 @@
     {
       "record_id": "recuY4xHnpTr5U",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "配件问题",
@@ -2555,7 +2555,7 @@
     {
       "record_id": "recuZ63u8bRe23",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "配件问题",
@@ -2568,7 +2568,7 @@
     {
       "record_id": "recv16dZ5i86Dy",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -2581,7 +2581,7 @@
     {
       "record_id": "recv1Kt0nYOo2I",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "配件问题",
@@ -2594,7 +2594,7 @@
     {
       "record_id": "recv3qP6AUrcTh",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -2607,7 +2607,7 @@
     {
       "record_id": "recv6JCr6Z47Bu",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -2620,7 +2620,7 @@
     {
       "record_id": "recv6P0p7yPWmC",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "配件问题",
@@ -2633,7 +2633,7 @@
     {
       "record_id": "recv7FNITZWLB1",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "配件问题",
@@ -2646,7 +2646,7 @@
     {
       "record_id": "recv9GwZahxavu",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "配件问题",
@@ -2659,7 +2659,7 @@
     {
       "record_id": "recvcRIfIKUSgy",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -2841,8 +2841,8 @@
     {
       "record_id": "recurw0mxP3K0C",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "发热问题",
         "severity": "用户体验问题",
         "content": "录制一会相机发热",
@@ -2854,8 +2854,8 @@
     {
       "record_id": "recuTV9zpNesRC",
       "fields": {
-        "status": "",
-        "level": "",
+        "status": "待确认",
+        "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
         "content": "我们刚参加完血库露天音乐节，一直等着用这款V50X。之前简单测试了一下基本功能，但我注意到，即使设备开机短短一段时间，就出现了设备和电池严重过热的情况。\n\n通常我会说运动相机有点发热是正常的，但这台相机简直烫得能灼伤我的手指。\n\n抱歉，也许我得详细说明一下。设备开机但闲置时，其温度就高到能灼伤皮肤了。 ",
