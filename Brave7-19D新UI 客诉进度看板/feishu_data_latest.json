@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-09 10:40:59",
+  "updated_at": "2026-04-09 16:07:31",
   "title": "Brave7-19D新UI 客诉进度看板",
   "field_map": {
-    "status": "进度",
+    "status": "状态",
     "level": "问题分级",
     "category": "问题归属",
     "severity": "问题类型",
@@ -33,7 +33,7 @@
     {
       "record_id": "recv3P0ZnMVQuA",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -46,7 +46,7 @@
     {
       "record_id": "recv4uhrAzH7ar",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -59,7 +59,7 @@
     {
       "record_id": "recv4uureqln3u",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "06-电池，10-固件问题",
         "severity": "产品问题",
@@ -72,7 +72,7 @@
     {
       "record_id": "recv59qAKYABWD",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "06-电池，10-固件问题",
         "severity": "产品问题",
@@ -85,7 +85,7 @@
     {
       "record_id": "recv59wbqKZegZ",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "06-电池，10-固件问题",
         "severity": "产品问题",
@@ -98,7 +98,7 @@
     {
       "record_id": "recv6b2s0oE1UI",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "06-电池，10-固件问题",
         "severity": "产品问题",
@@ -111,7 +111,7 @@
     {
       "record_id": "recv6b2MRKQwzH",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "06-电池，10-固件问题",
         "severity": "产品问题",
@@ -124,7 +124,7 @@
     {
       "record_id": "recv6b3gcPa5Ni",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "06-电池，10-固件问题",
         "severity": "产品问题",
@@ -137,7 +137,7 @@
     {
       "record_id": "recv6b3u1A6CMm",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "06-电池，10-固件问题",
         "severity": "产品问题",
@@ -150,7 +150,7 @@
     {
       "record_id": "recv6b5b0fTawp",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "06-电池，10-固件问题",
         "severity": "产品问题",
@@ -163,7 +163,7 @@
     {
       "record_id": "recv89F6ZX4f4Y",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "10-固件问题，06-电池",
         "severity": "产品问题",
@@ -176,7 +176,7 @@
     {
       "record_id": "recvcpdgKekSEB",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "06-电池，10-固件问题",
         "severity": "产品问题",
@@ -189,7 +189,7 @@
     {
       "record_id": "recvcG4WHIEjG8",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "10-固件问题，06-电池",
         "severity": "产品问题",
@@ -202,7 +202,7 @@
     {
       "record_id": "recvdmCx4RpXz2",
       "fields": {
-        "status": "",
+        "status": "开发中",
         "level": "S",
         "category": "10-固件问题，06-电池",
         "severity": "产品问题",
@@ -215,7 +215,7 @@
     {
       "record_id": "recv6KgDwRsuF4",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池，发热问题",
         "severity": "配件问题",
@@ -267,7 +267,7 @@
     {
       "record_id": "recv89t1Es9BJ6",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
@@ -280,7 +280,7 @@
     {
       "record_id": "recvdJ1vwPZc4l",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
@@ -293,7 +293,7 @@
     {
       "record_id": "recvf2V2j4vvQ2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "录像及回放问题，17-图像品质",
         "severity": "产品问题",
@@ -319,7 +319,7 @@
     {
       "record_id": "recv6sNoqCfrMq",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -332,7 +332,7 @@
     {
       "record_id": "recv88VVmJ4c9M",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -345,7 +345,7 @@
     {
       "record_id": "recvcpdhD5oh5F",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -358,7 +358,7 @@
     {
       "record_id": "recvdwK1Wi2r9x",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -371,7 +371,7 @@
     {
       "record_id": "recv3a1FXKWTE2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -384,7 +384,7 @@
     {
       "record_id": "recv96Mg72ujAG",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "用户体验问题",
@@ -397,7 +397,7 @@
     {
       "record_id": "recvaMK0ubeX7z",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "配件问题",

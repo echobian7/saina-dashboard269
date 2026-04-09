@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-09 10:41:19",
+  "updated_at": "2026-04-09 16:08:00",
   "title": "Brave8Lite 客诉进度看板",
   "field_map": {
-    "status": "进度",
+    "status": "状态",
     "level": "问题分级",
     "category": "问题归属",
     "severity": "问题类型",
@@ -254,7 +254,7 @@
     {
       "record_id": "recupfMjc6KSin",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机，发热问题",
         "severity": "产品问题",
@@ -267,7 +267,7 @@
     {
       "record_id": "recuJyQ9rRMPWe",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "充电问题",
         "severity": "产品问题",
@@ -280,7 +280,7 @@
     {
       "record_id": "recuqRCk85GXIY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
@@ -293,7 +293,7 @@
     {
       "record_id": "recuAuuTKIbE6j",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "10-固件问题",
         "severity": "APP问题",
@@ -306,7 +306,7 @@
     {
       "record_id": "recumC8qum8OoW",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "录像及回放问题，10-固件问题",
         "severity": "产品问题",
@@ -319,7 +319,7 @@
     {
       "record_id": "recuLCGSn8QVmG",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -332,7 +332,7 @@
     {
       "record_id": "recuPA6O9s97EF",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -345,7 +345,7 @@
     {
       "record_id": "recuTxR9Oi0QuN",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -358,7 +358,7 @@
     {
       "record_id": "recuX80qozBtnm",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -371,7 +371,7 @@
     {
       "record_id": "recv8gA5m2KKQl",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -384,7 +384,7 @@
     {
       "record_id": "recv9uNKWHlD3Y",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -397,7 +397,7 @@
     {
       "record_id": "recv09c1rxPfJ5",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水，14-SD卡问题",
         "severity": "产品问题",
@@ -410,7 +410,7 @@
     {
       "record_id": "reculo01law0z3",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -423,7 +423,7 @@
     {
       "record_id": "recuHPMeTbDSiY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -436,7 +436,7 @@
     {
       "record_id": "recuJloDpMblHy",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -449,7 +449,7 @@
     {
       "record_id": "recuMz5nhwowIQ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -462,7 +462,7 @@
     {
       "record_id": "recuPAsPx96WbJ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -475,7 +475,7 @@
     {
       "record_id": "recuYCYCP0EJy2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -488,7 +488,7 @@
     {
       "record_id": "recvaTCS35FdAL",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -501,7 +501,7 @@
     {
       "record_id": "recvc8jCIpDEFb",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "12-开关机问题",
         "severity": "产品问题",
@@ -514,7 +514,7 @@
     {
       "record_id": "recuqRwt1x83t6",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "17-图像品质",
         "severity": "产品问题",
@@ -527,7 +527,7 @@
     {
       "record_id": "recuy1qu9lRiWE",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "17-图像品质",
         "severity": "用户体验问题",
@@ -540,7 +540,7 @@
     {
       "record_id": "recuFWIVrGqQSu",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "17-图像品质",
         "severity": "产品问题",
@@ -553,7 +553,7 @@
     {
       "record_id": "recuPcOSOgasmA",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "17-图像品质",
         "severity": "用户体验问题",
@@ -566,7 +566,7 @@
     {
       "record_id": "recvcpBeoIqsTf",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "17-图像品质",
         "severity": "产品问题",
@@ -579,7 +579,7 @@
     {
       "record_id": "recuSjsB39muCK",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "17-图像品质，03-声音问题",
         "severity": "产品问题",
@@ -592,7 +592,7 @@
     {
       "record_id": "recv3yp0mnQICN",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "17-图像品质，发热问题",
         "severity": "产品问题",
@@ -631,7 +631,7 @@
     {
       "record_id": "recuSwdZTT09kH",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "14-SD卡问题",
         "severity": "产品问题",
@@ -787,7 +787,7 @@
     {
       "record_id": "recule2znbok5b",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题，录像及回放问题",
         "severity": "APP问题",
@@ -800,7 +800,7 @@
     {
       "record_id": "recuoSKMqI6F7k",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -813,7 +813,7 @@
     {
       "record_id": "recupxhzxO6HSr",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -826,7 +826,7 @@
     {
       "record_id": "recuFLcn38Rdlb",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -839,7 +839,7 @@
     {
       "record_id": "recuLBRoNbWS7n",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -852,7 +852,7 @@
     {
       "record_id": "recuSTdskSqi7t",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -865,7 +865,7 @@
     {
       "record_id": "recuUpghoYZfSf",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -878,7 +878,7 @@
     {
       "record_id": "recuXHO68DVo05",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -891,7 +891,7 @@
     {
       "record_id": "recuoTwmiljv6e",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题，11-APP问题",
         "severity": "产品问题",

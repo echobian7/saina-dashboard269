@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-09 10:41:14",
+  "updated_at": "2026-04-09 16:07:52",
   "title": "Brave8 客诉进度看板",
   "field_map": {
-    "status": "进度",
+    "status": "状态",
     "level": "问题分级",
     "category": "问题归属",
     "severity": "问题类型",
@@ -163,7 +163,7 @@
     {
       "record_id": "recuX2AGzZAacf",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "05-按键，11-APP问题",
         "severity": "配件问题",
@@ -176,7 +176,7 @@
     {
       "record_id": "recukytHrNsVHR",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -189,7 +189,7 @@
     {
       "record_id": "reculSy27ZnMaF",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -202,7 +202,7 @@
     {
       "record_id": "reculYNzi1yQ9U",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -215,7 +215,7 @@
     {
       "record_id": "recunQq07T4ZrY",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -228,7 +228,7 @@
     {
       "record_id": "recuqLMegyOsOY",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -241,7 +241,7 @@
     {
       "record_id": "recuz9LUB600bi",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "产品问题",
@@ -254,7 +254,7 @@
     {
       "record_id": "recuzaBXNypHQp",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -267,7 +267,7 @@
     {
       "record_id": "recuExv6FTEy1Y",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -280,7 +280,7 @@
     {
       "record_id": "recuGl2NjdorrP",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "用户体验问题",
@@ -293,7 +293,7 @@
     {
       "record_id": "recuGlGqbYkcxh",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -306,7 +306,7 @@
     {
       "record_id": "recuIoDt9FbXY1",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -319,7 +319,7 @@
     {
       "record_id": "recuIYUGrCNxFh",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -332,7 +332,7 @@
     {
       "record_id": "recuIZdT5ISzyc",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "产品问题",
@@ -345,7 +345,7 @@
     {
       "record_id": "recuJyQ9rRWY89",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -358,7 +358,7 @@
     {
       "record_id": "recuKFuQXFV6fN",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -371,7 +371,7 @@
     {
       "record_id": "recuLNjPL88htz",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -384,7 +384,7 @@
     {
       "record_id": "recuQCxw7sIfwE",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -397,7 +397,7 @@
     {
       "record_id": "recuRbGpaPNDqz",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -410,7 +410,7 @@
     {
       "record_id": "recuVINt7fra0s",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -423,7 +423,7 @@
     {
       "record_id": "recuXe0xwcEgu5",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -436,7 +436,7 @@
     {
       "record_id": "recv1Fft528gu3",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "产品问题",
@@ -449,7 +449,7 @@
     {
       "record_id": "recv8VBe5rn8Vd",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -462,7 +462,7 @@
     {
       "record_id": "recv96Mg72w0JS",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池",
         "severity": "配件问题",
@@ -475,7 +475,7 @@
     {
       "record_id": "recuPR8v7zCOVx",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "06-电池，发热问题",
         "severity": "配件问题",
@@ -488,7 +488,7 @@
     {
       "record_id": "recule2znbuuDf",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -501,7 +501,7 @@
     {
       "record_id": "reculo02Ss1KJK",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -514,7 +514,7 @@
     {
       "record_id": "recungMCVdxwF4",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -527,7 +527,7 @@
     {
       "record_id": "recuo3xZByNwqh",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -540,7 +540,7 @@
     {
       "record_id": "recuoU6DsHG05u",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -553,7 +553,7 @@
     {
       "record_id": "recuoUb3pdp7SY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -566,7 +566,7 @@
     {
       "record_id": "recupa1kEqhStA",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -579,7 +579,7 @@
     {
       "record_id": "recutSCFgqSgVT",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -592,7 +592,7 @@
     {
       "record_id": "recuu4h29lz16W",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -605,7 +605,7 @@
     {
       "record_id": "recuvZmfZp0etN",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -618,7 +618,7 @@
     {
       "record_id": "recuywpPCJuUkv",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -631,7 +631,7 @@
     {
       "record_id": "recuFLcn38asDa",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -644,7 +644,7 @@
     {
       "record_id": "recuMz5q45wBj3",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -657,7 +657,7 @@
     {
       "record_id": "recuPiFoJJsIlR",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -670,7 +670,7 @@
     {
       "record_id": "recuQBSTVpLJH1",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -683,7 +683,7 @@
     {
       "record_id": "recuXdatq0RmOa",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -696,7 +696,7 @@
     {
       "record_id": "recuXvwqNJ6sfk",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -709,7 +709,7 @@
     {
       "record_id": "recv2MPkPOZZAq",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "09-配件",
         "severity": "配件问题",
@@ -735,7 +735,7 @@
     {
       "record_id": "recukF9XGqUelu",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
@@ -748,7 +748,7 @@
     {
       "record_id": "reculYNzi14k8g",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
@@ -761,7 +761,7 @@
     {
       "record_id": "recuwBJMrP4uG0",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
@@ -774,7 +774,7 @@
     {
       "record_id": "recuAvfvUgmVe7",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
@@ -787,7 +787,7 @@
     {
       "record_id": "recuGlEEJhtSIY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
@@ -800,7 +800,7 @@
     {
       "record_id": "recuH598r1Tr9A",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
@@ -813,7 +813,7 @@
     {
       "record_id": "recuYgB788S74O",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
@@ -826,7 +826,7 @@
     {
       "record_id": "recv3aacYnC81D",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机",
         "severity": "产品问题",
@@ -839,7 +839,7 @@
     {
       "record_id": "recuqFLmcTUyy0",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机，06-电池",
         "severity": "产品问题",
@@ -852,7 +852,7 @@
     {
       "record_id": "recuN9rtPJM0O9",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机，录像及回放问题，发热问题",
         "severity": "产品问题",
@@ -865,7 +865,7 @@
     {
       "record_id": "recutw5TLqAFxw",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机，发热问题",
         "severity": "产品问题",
@@ -878,7 +878,7 @@
     {
       "record_id": "recv89t0fFcjWi",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "18-死机，发热问题",
         "severity": "产品问题",
@@ -891,7 +891,7 @@
     {
       "record_id": "recuFnxMuk5Fzu",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "充电问题",
         "severity": "配件问题",
@@ -904,7 +904,7 @@
     {
       "record_id": "recv9Ep4dyqAYz",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "充电问题，发热问题",
         "severity": "产品问题",
@@ -917,7 +917,7 @@
     {
       "record_id": "recuniYnPQubdX",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
@@ -930,7 +930,7 @@
     {
       "record_id": "recuAnOFPfms76",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "10-固件问题",
         "severity": "用户体验问题",
@@ -943,7 +943,7 @@
     {
       "record_id": "recuHKGn44HZYJ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "10-固件问题",
         "severity": "配件问题",
@@ -956,7 +956,7 @@
     {
       "record_id": "recuHRwViHuzJi",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
@@ -969,7 +969,7 @@
     {
       "record_id": "recuJyQ9rRd6qc",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "10-固件问题",
         "severity": "产品问题",
@@ -982,7 +982,7 @@
     {
       "record_id": "recuHKGn44zJVZ",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "录像及回放问题",
         "severity": "APP问题",
@@ -995,7 +995,7 @@
     {
       "record_id": "recv9osq6J6dX6",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "录像及回放问题",
         "severity": "产品问题",
@@ -1008,7 +1008,7 @@
     {
       "record_id": "recurPtvVehHJm",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "录像及回放问题，发热问题",
         "severity": "产品问题",
@@ -1060,7 +1060,7 @@
     {
       "record_id": "recukF9XGqFv8H",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1073,7 +1073,7 @@
     {
       "record_id": "recut7JJViVzhW",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1086,7 +1086,7 @@
     {
       "record_id": "recux5qUb8AvD2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1099,7 +1099,7 @@
     {
       "record_id": "recuFFf0wgVOSA",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1112,7 +1112,7 @@
     {
       "record_id": "recuJaUvfXzZVz",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1125,7 +1125,7 @@
     {
       "record_id": "recuMF5avFtLzp",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1138,7 +1138,7 @@
     {
       "record_id": "recuRyU0mzUcrt",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1151,7 +1151,7 @@
     {
       "record_id": "recuUS6hL5SwMP",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1164,7 +1164,7 @@
     {
       "record_id": "recuV3SAsudWdB",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1177,7 +1177,7 @@
     {
       "record_id": "recv0r6HN5ytm2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1190,7 +1190,7 @@
     {
       "record_id": "recv8UZ6Jmo7wF",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1203,7 +1203,7 @@
     {
       "record_id": "recvcXkCmnru6a",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "16-机身防水",
         "severity": "产品问题",
@@ -1593,7 +1593,7 @@
     {
       "record_id": "reculifx7DhyHd",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1606,7 +1606,7 @@
     {
       "record_id": "recuo3xZByvNIY",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1619,7 +1619,7 @@
     {
       "record_id": "recuSvhjLu3rLC",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1632,7 +1632,7 @@
     {
       "record_id": "recuUt0EprTihm",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1645,7 +1645,7 @@
     {
       "record_id": "recuVvqZf6in9K",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1658,7 +1658,7 @@
     {
       "record_id": "recuVCTAhEeyTc",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1671,7 +1671,7 @@
     {
       "record_id": "recuXGkPKSooun",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1684,7 +1684,7 @@
     {
       "record_id": "recuYb8JBgmGEP",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1697,7 +1697,7 @@
     {
       "record_id": "recv0dGoVJ2Rnf",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1710,7 +1710,7 @@
     {
       "record_id": "recv38X5ABCHTl",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1723,7 +1723,7 @@
     {
       "record_id": "recv3aaVWDEBvU",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1736,7 +1736,7 @@
     {
       "record_id": "recv3arUWVEHEh",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1749,7 +1749,7 @@
     {
       "record_id": "recv6saU72TEIa",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "11-APP问题",
         "severity": "APP问题",
@@ -1775,7 +1775,7 @@
     {
       "record_id": "recunQfTlMGC7h",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1788,7 +1788,7 @@
     {
       "record_id": "recupfMkRXNTvM",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1801,7 +1801,7 @@
     {
       "record_id": "recuprPTVqWghF",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1814,7 +1814,7 @@
     {
       "record_id": "recussWzJRU3KK",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1827,7 +1827,7 @@
     {
       "record_id": "recuteEeeMcjU0",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1840,7 +1840,7 @@
     {
       "record_id": "recuvLFgtf6Qpj",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1853,7 +1853,7 @@
     {
       "record_id": "recuF1lg30VpWs",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1866,7 +1866,7 @@
     {
       "record_id": "recuJIHDrIXGmk",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1879,7 +1879,7 @@
     {
       "record_id": "recuNdRZei0V6P",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1892,7 +1892,7 @@
     {
       "record_id": "recuPiDTPzr4Yr",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1905,7 +1905,7 @@
     {
       "record_id": "recuPiDTPz4f9r",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1918,7 +1918,7 @@
     {
       "record_id": "recuVOfxddCWyM",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1931,7 +1931,7 @@
     {
       "record_id": "recuWVfrWmBefh",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1944,7 +1944,7 @@
     {
       "record_id": "recv2ixJxAFNf2",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
@@ -1957,7 +1957,7 @@
     {
       "record_id": "recv7FHNKPO6nj",
       "fields": {
-        "status": "",
+        "status": "待确认",
         "level": "S",
         "category": "发热问题",
         "severity": "产品问题",
