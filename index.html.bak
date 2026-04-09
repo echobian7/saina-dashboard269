@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>赛纳电子 · 数据看板</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0b0f1e; color: #e2e8f0;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+    min-height: 100vh; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; padding: 40px 20px; }
+  .header { text-align: center; margin-bottom: 56px; }
+  .header .brand { font-size: 13px; letter-spacing: 0.15em; color: #64748b;
+    text-transform: uppercase; margin-bottom: 14px; }
+  .header h1 { font-size: 42px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #e2e8f0 0%, #94a3b8 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; margin-bottom: 12px; }
+  .header .subtitle { font-size: 14px; color: #475569; letter-spacing: 0.05em; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px; width: 100%; max-width: 1100px; }
+  .card { background: #131929; border: 1px solid #1e2d47; border-radius: 16px;
+    padding: 32px 28px 28px; cursor: pointer; text-decoration: none; color: inherit;
+    display: flex; flex-direction: column; gap: 12px;
+    transition: border-color .2s, background .2s, transform .15s, box-shadow .2s;
+    position: relative; overflow: hidden; }
+  .card::before { content: ""; position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 30% 0%, rgba(56,139,253,.07) 0%, transparent 60%);
+    pointer-events: none; opacity: 0; transition: opacity .3s; }
+  .card:hover { border-color: #2d4a7a; background: #151d30;
+    transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,.5); }
+  .card:hover::before { opacity: 1; }
+  .card:active { transform: translateY(-1px); }
+  .card-icon { font-size: 36px; line-height: 1; margin-bottom: 4px; }
+  .card-title { font-size: 18px; font-weight: 600; color: #e2e8f0; line-height: 1.3; }
+  .card-desc { font-size: 13px; color: #64748b; line-height: 1.6; flex: 1; }
+  .card-tag { display: inline-block; padding: 3px 10px; border-radius: 20px;
+    font-size: 11px; font-weight: 500; background: rgba(56,139,253,.15);
+    color: #60a5fa; border: 1px solid rgba(56,139,253,.25);
+    align-self: flex-start; margin-top: 4px; }
+  .card-add { border-style: dashed; border-color: #1e2d47; background: transparent;
+    cursor: default; align-items: center; justify-content: center; text-align: center;
+    min-height: 200px; gap: 8px; }
+  .card-add:hover { border-color: #2d4a7a; background: rgba(56,139,253,.03);
+    transform: none; box-shadow: none; }
+  .card-add .plus { font-size: 32px; color: #334155; line-height: 1; }
+  .card-add .add-text { font-size: 13px; color: #334155; }
+  .footer { margin-top: 52px; font-size: 12px; color: #1e293b; text-align: center; }
+  .card-arrow { position: absolute; top: 20px; right: 20px; color: #1e3a5f;
+    font-size: 14px; transition: color .2s; }
+  .card:hover .card-arrow { color: #3b82f6; }
+
+  /* ── 密码遮罩层 ── */
+  #auth-overlay {
+    position: fixed; inset: 0; z-index: 9999;
+    background: #0b0f1e;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .auth-box {
+    background: #131929; border: 1px solid #1e2d47; border-radius: 20px;
+    padding: 48px 40px; text-align: center; width: 340px;
+    display: flex; flex-direction: column; gap: 18px;
+  }
+  .auth-lock { font-size: 44px; line-height: 1; }
+  .auth-title { font-size: 20px; font-weight: 700; color: #e2e8f0; }
+  .auth-sub { font-size: 13px; color: #475569; line-height: 1.5; }
+  .auth-input {
+    background: #0d1117; border: 1px solid #1e2d47; border-radius: 10px;
+    color: #e2e8f0; font-size: 18px; padding: 13px 16px;
+    outline: none; text-align: center; letter-spacing: 6px;
+    transition: border-color .2s; width: 100%;
+  }
+  .auth-input:focus { border-color: #3b82f6; }
+  .auth-error { font-size: 12px; color: #f85149; display: none; margin-top: -8px; }
+  .auth-btn {
+    background: #1d4ed8; color: #fff; border: none; border-radius: 10px;
+    padding: 13px; font-size: 15px; font-weight: 600; cursor: pointer;
+    transition: background .2s;
+  }
+  .auth-btn:hover { background: #2563eb; }
+</style>
+</head>
+<body>
+
+<!-- 密码遮罩层 -->
+<div id="auth-overlay">
+  <div class="auth-box">
+    <div class="auth-lock">🔒</div>
+    <div class="auth-title">赛纳电子 · 数据看板</div>
+    <div class="auth-sub">请输入访问密码</div>
+    <input type="password" id="auth-input" class="auth-input" placeholder="••••••••"
+           autocomplete="current-password" maxlength="32">
+    <div id="auth-error" class="auth-error">密码错误，请重试</div>
+    <button class="auth-btn" onclick="checkAuth()">进 入</button>
+  </div>
+</div>
+
+<div class="header">
+  <div class="brand">赛纳电子 · 内部数据平台</div>
+  <h1>数据看板</h1>
+  <div class="subtitle">每日自动更新 &nbsp;·&nbsp; 数据来源：飞书多维表格</div>
+</div>
+<div class="grid" id="cardGrid">
+  <!-- __CARDS_PLACEHOLDER__ -->
+  <!-- CARD:brave7-19d新ui-客诉进度看板 -->
+  <a class="card" href="Brave7-19D新UI 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">🎥</div>
+    <div class="card-title">Brave7-19D新UI 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>新UI固件版本 · 问题归类与状态分布</div>
+    <div class="card-tag">brave7-19d新ui</div>
+  </a>
+  <!-- /CARD:brave7-19d新ui-客诉进度看板 -->
+  <!-- CARD:brave7le-客诉进度看板 -->
+  <a class="card" href="Brave7LE 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">🎥</div>
+    <div class="card-title">Brave7LE 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>LE版本 · 解决进度与优先级跟进</div>
+    <div class="card-tag">brave7le</div>
+  </a>
+  <!-- /CARD:brave7le-客诉进度看板 -->
+  <!-- CARD:brave4-客诉进度看板 -->
+  <a class="card" href="Brave4 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">🎥</div>
+    <div class="card-title">Brave4 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>S级问题跟进 · 状态分布与趋势</div>
+    <div class="card-tag">brave4</div>
+  </a>
+  <!-- /CARD:brave4-客诉进度看板 -->
+  <!-- CARD:brave4pro-客诉进度看板 -->
+  <a class="card" href="Brave4Pro 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">🎥</div>
+    <div class="card-title">Brave4Pro 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>Pro版本 · S级待处理与解决进度</div>
+    <div class="card-tag">brave4pro</div>
+  </a>
+  <!-- /CARD:brave4pro-客诉进度看板 -->
+  <!-- CARD:brave8lite-客诉进度看板 -->
+  <a class="card" href="Brave8Lite 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">🎥</div>
+    <div class="card-title">Brave8Lite 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>Lite版本 · 问题归类与处理进度</div>
+    <div class="card-tag">brave8lite</div>
+  </a>
+  <!-- /CARD:brave8lite-客诉进度看板 -->
+  <!-- CARD:brave8-客诉进度看板 -->
+  <a class="card" href="Brave8 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">🎥</div>
+    <div class="card-title">Brave8 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>旗舰版本 · S级优先级与状态分布</div>
+    <div class="card-tag">brave8</div>
+  </a>
+  <!-- /CARD:brave8-客诉进度看板 -->
+  <!-- CARD:ek7000-8816-客诉进度看板 -->
+  <a class="card" href="EK7000-8816 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">📸</div>
+    <div class="card-title">EK7000-8816 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>8816固件版本 · 问题归类与处理进度</div>
+    <div class="card-tag">ek7000-8816</div>
+  </a>
+  <!-- /CARD:ek7000-8816-客诉进度看板 -->
+  <!-- CARD:ek7000pro-客诉进度看板 -->
+  <a class="card" href="EK7000Pro 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">📸</div>
+    <div class="card-title">EK7000Pro 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>Pro版本 · 状态分布与优先级跟进</div>
+    <div class="card-tag">ek7000pro</div>
+  </a>
+  <!-- /CARD:ek7000pro-客诉进度看板 -->
+  <!-- CARD:v50x-客诉进度看板 -->
+  <a class="card" href="V50X 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">📸</div>
+    <div class="card-title">V50X 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>V50X版本 · 状态分布与解决趋势</div>
+    <div class="card-tag">v50x</div>
+  </a>
+  <!-- /CARD:v50x-客诉进度看板 -->
+  <!-- CARD:v50-elite-v39-客诉进度看板 -->
+  <a class="card" href="V50 Elite-V39 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">📸</div>
+    <div class="card-title">V50 Elite-V39 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>Elite V39版本 · 问题归类与处理进度</div>
+    <div class="card-tag">v50-elite-v39</div>
+  </a>
+  <!-- /CARD:v50-elite-v39-客诉进度看板 -->
+  <!-- CARD:v50pro-客诉进度看板 -->
+  <a class="card" href="V50Pro 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">📸</div>
+    <div class="card-title">V50Pro 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>Pro版本 · S级待处理与状态分布</div>
+    <div class="card-tag">v50pro</div>
+  </a>
+  <!-- /CARD:v50pro-客诉进度看板 -->
+  <!-- CARD:vision3-客诉进度看板 -->
+  <a class="card" href="Vision3 客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">📸</div>
+    <div class="card-title">Vision3 客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>Vision3版本 · 状态分布与趋势分析</div>
+    <div class="card-tag">vision3</div>
+  </a>
+  <!-- /CARD:vision3-客诉进度看板 -->
+  <!-- CARD:ek7000-v53客诉看板 -->
+  <a class="card" href="EK7000-V53客诉看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">📸</div>
+    <div class="card-title">EK7000-V53客诉看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>V53固件版本 · 终端表现与问题分布</div>
+    <div class="card-tag">ek7000-v53</div>
+  </a>
+  <!-- /CARD:ek7000-v53客诉看板 -->
+  <!-- CARD:panorama-complaints -->
+  <a class="card" href="./全景相机客诉看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">📷</div>
+    <div class="card-title">全景相机客诉跟进</div>
+    <div class="card-desc">360° 相机客诉问题追踪<br>状态分布与解决进度</div>
+    <div class="card-tag">panorama-complaints</div>
+  </a>
+  <!-- /CARD:panorama-complaints -->
+  <!-- CARD:b7-19d客诉进度看板 -->
+  <a class="card" href="B7-19D客诉进度看板/dashboard.html" target="_blank">
+    <span class="card-arrow">↗</span>
+    <div class="card-icon">🎥</div>
+    <div class="card-title">B7-19D客诉进度看板</div>
+    <div class="card-desc">运动相机客诉追踪<br>B7 19D固件版本 · 问题归类与状态分布</div>
+    <div class="card-tag">b7-19d</div>
+  </a>
+  <!-- /CARD:b7-19d客诉进度看板 -->
+  <div class="card card-add">
+    <div class="plus">＋</div>
+    <div class="add-text">后续新增看板将在此出现</div>
+  </div>
+</div>
+<div class="footer">页面最后更新时间反映在各看板内</div>
+
+<script>
+const _AH = '4ee13423c943d1338a1758bcedfc7dc2ac9ad06d6b02096cefd6fad053048b22';
+const _AK = 'saina_auth';
+
+async function _sha256(s) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
+  return [...new Uint8Array(buf)].map(x => x.toString(16).padStart(2, '0')).join('');
+}
+
+(function init() {
+  if (localStorage.getItem(_AK) === _AH) {
+    document.getElementById('auth-overlay').style.display = 'none';
+  }
+  document.getElementById('auth-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') checkAuth();
+    document.getElementById('auth-error').style.display = 'none';
+  });
+})();
+
+async function checkAuth() {
+  const v = document.getElementById('auth-input').value;
+  if (!v) return;
+  const h = await _sha256(v);
+  if (h === _AH) {
+    localStorage.setItem(_AK, _AH);
+    document.getElementById('auth-overlay').style.display = 'none';
+  } else {
+    document.getElementById('auth-error').style.display = 'block';
+    document.getElementById('auth-input').value = '';
+    document.getElementById('auth-input').focus();
+  }
+}
+</script>
+
+</body>
+</html>
