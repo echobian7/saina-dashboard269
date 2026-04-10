@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10 06:22:40",
+  "updated_at": "2026-04-10 10:17:59",
   "title": "Brave4Pro 客诉进度看板",
   "field_map": {
     "status": "状态",
@@ -2380,6 +2380,19 @@
         "content": "请发送最新的固件文件。视频画面抖动。",
         "no": "5077",
         "date": 1765425453000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvgnbkbr2IUr",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "17-图像品质",
+        "severity": "产品问题",
+        "content": "画面质量太差了，所以我想退货。",
+        "no": "5906",
+        "date": 1775807983000,
         "retest": ""
       }
     },
