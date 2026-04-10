@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10 06:23:18",
+  "updated_at": "2026-04-10 10:19:00",
   "title": "EK7000-V53客诉看板",
   "field_map": {
     "status": "状态",
@@ -341,14 +341,74 @@
       }
     },
     {
-      "record_id": "recvgmMDloweo3",
+      "record_id": "recvgn76G9H5J6",
       "fields": {
         "status": "",
         "level": "",
-        "category": "",
-        "content": "",
-        "no": "5902",
-        "date": 1775802098000,
+        "category": "12-开关机问题",
+        "content": "我在亚马逊上购买了【AKASO Brave7】，订单日期是2026年1月29日。之后我把它带到了国外，但是无法开机，已经无法使用了。",
+        "no": "5903",
+        "date": 1775806978000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvgn77eGiyiX",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "11-APP问题",
+        "content": "我能连接到AKASOgo，但在加载视频时，加载图标一直在转圈，不管等多久都无法显示。我以为是视频数量太多的原因，就减少了视频数量，但还是加载不了。另外，在设置视频详细参数时也无法连接，会出现超时的情况。我不知道订单号，设备是BRAVE7LE。",
+        "no": "5904",
+        "date": 1775806980000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvgnaBf7FUXA",
+      "fields": {
+        "status": "待确认",
+        "level": "S",
+        "category": "03-声音问题",
+        "content": "我前几天购买了BRAVE7LE。拍摄视频后播放时，画面有录制下来，但没有声音。我已将设置中的录音设为开启，麦克风设为内置，但还是没有声音。不清楚是设置问题还是故障。知道您很忙，但还是想请您回答一下。\n酒井",
+        "no": "5905",
+        "date": 1775807810000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvgnbkbr2IUr",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "17-图像品质",
+        "content": "画面质量太差了，所以我想退货。",
+        "no": "5906",
+        "date": 1775807983000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvgnc6cTg0zH",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "其他问题",
+        "content": "摄影时不小心把屏幕弄出裂痕了，所以想请您修理一下。",
+        "no": "5907",
+        "date": 1775808167000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvgneXO9qHyx",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "11-APP问题",
+        "content": "商品已经收到，我试了一下超级流畅模式，但在导出过程中应用程序崩溃了，无法保存。请告诉我解决方法。相机的设置如上面附件所示。这个症状在4K30时发生，2.7K30、1080 30时可以正常导出，看来只有4K有问题。",
+        "no": "5908",
+        "date": 1775808850000,
         "retest": ""
       }
     }
