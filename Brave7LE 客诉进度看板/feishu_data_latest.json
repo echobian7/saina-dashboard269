@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-15 06:11:44",
+  "updated_at": "2026-04-15 10:44:23",
   "title": "Brave7LE 客诉进度看板",
   "field_map": {
     "status": "状态",
@@ -3901,6 +3901,19 @@
         "content": "我需要用于更新我的Akaso Go Brave LE的软件，它卡在了logo界面，无法继续，帮帮我",
         "no": "5840",
         "date": 1775027372000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvgQKmAB2LQe",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "19-开机卡LOGO",
+        "severity": "产品问题",
+        "content": "我需要用于更新我的Akaso Go Brave LE的软件，它卡在logo界面无法继续，帮帮我。",
+        "no": "5939",
+        "date": 1776244843000,
         "retest": ""
       }
     },
