@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17 06:27:39",
+  "updated_at": "2026-04-17 10:39:44",
   "title": "EK7000-V53客诉看板",
   "field_map": {
     "status": "状态",
@@ -457,6 +457,42 @@
         "content": "我最近买了一台Action Ca AKASO Brave4pro型号的相机。我买了一张256GB的SanDisk SD卡，读取速度170MB/s，写入速度90MB/s。当我把它插入相机时，显示“卡速度太慢”的信息。我注意到如果把分辨率降低到1080p 30fps，问题就解决了。是的，实际上问题只出在这张我刚买的卡上。",
         "no": "5950",
         "date": 1776406937000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvh1WpPj491Q",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "05-按键",
+        "content": "买来一天，7 Pro中间上方的按钮就反应不良了，该怎么办才好呢？",
+        "no": "5951",
+        "date": 1776410258000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvh1WKpMAJwY",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "05-按键",
+        "content": "抱歉。\n很久没启动后，购买的产品的↑按钮完全没有反应。\n该怎么办呢？",
+        "no": "5952",
+        "date": 1776410336000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvh22iFAOqsH",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "08-防水壳",
+        "content": "您好，遗憾的是相机的防水外壳在第二次使用时不再防水，因此水进入了相机，导致相机损坏。这属于保修情况（购买日期为2025年2月27日）。我请求一个相应的解决方案（例如更换新设备）。",
+        "no": "5953",
+        "date": 1776411661000,
         "retest": ""
       }
     }
