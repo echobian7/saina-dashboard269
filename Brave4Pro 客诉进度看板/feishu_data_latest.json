@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17 00:09:31",
+  "updated_at": "2026-04-17 06:26:17",
   "title": "Brave4Pro 客诉进度看板",
   "field_map": {
     "status": "状态",
@@ -2679,6 +2679,19 @@
         "content": "我正在使用闪迪Extreme 128GB 4K U30和闪迪Extreme Pro 128GB 4K U30存储卡。当我降低分辨率设置时，这两张卡的速度都没问题，但在4K设置下速度就变慢了。",
         "no": "5766",
         "date": 1773906052000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvh1ItelusEW",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "14-SD卡问题",
+        "severity": "配件问题",
+        "content": "我最近买了一台Action Ca AKASO Brave4pro型号的相机。我买了一张256GB的SanDisk SD卡，读取速度170MB/s，写入速度90MB/s。当我把它插入相机时，显示“卡速度太慢”的信息。我注意到如果把分辨率降低到1080p 30fps，问题就解决了。是的，实际上问题只出在这张我刚买的卡上。",
+        "no": "5950",
+        "date": 1776406937000,
         "retest": ""
       }
     },
