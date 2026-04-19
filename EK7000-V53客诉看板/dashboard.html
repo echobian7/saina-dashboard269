@@ -333,7 +333,7 @@ function renderAll(data, snaps, topLevel) {
 
 // ── Boot ──────────────────────────────────────────────
 async function loadFromLocalData() {
-  const EMBEDDED_DATA = {"updated_at": "2026-04-19 16:05:37", "title": "EK7000-V53客诉看板", "field_map": {"status": "状态", "level": "问题分级", "category": "问题归属", "severity": null, "content": "翻译", "no": "客诉id", "date": "填表时间", "retest": "供应商反馈/处理方案"}, "done_values": ["已关闭"], "top_level": "S", "records": []};
+  const EMBEDDED_DATA = {"updated_at": "2026-04-19 18:06:25", "title": "EK7000-V53客诉看板", "field_map": {"status": "状态", "level": "问题分级", "category": "问题归属", "severity": null, "content": "翻译", "no": "客诉id", "date": "填表时间", "retest": "供应商反馈/处理方案"}, "done_values": ["已关闭"], "top_level": "S", "records": []};
   const { records=[], field_map={}, done_values=[], top_level='S', title='' } = EMBEDDED_DATA;
   if (title) { document.title = title; document.getElementById('dashTitle').textContent = title; }
   document.getElementById('kpiTopLabel').textContent = `${top_level} 级待处理`;
