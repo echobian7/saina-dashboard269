@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19 23:56:25",
+  "updated_at": "2026-04-20 07:31:30",
   "title": "EK7000Pro 客诉进度看板",
   "field_map": {
     "status": "状态",
@@ -1656,6 +1656,19 @@
       }
     },
     {
+      "record_id": "recvhjqxHnXuTZ",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "06-电池",
+        "severity": "配件问题",
+        "content": "电池已损坏且无法充电",
+        "no": "5961",
+        "date": 1776668637000,
+        "retest": ""
+      }
+    },
+    {
       "record_id": "recuqRiKLznpDc",
       "fields": {
         "status": "",
@@ -2549,6 +2562,19 @@
         "content": "其中一个支架在使用第一天就坏了。附件是图片。",
         "no": "5837",
         "date": 1775007640000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvhimjmHXiql",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "09-配件",
+        "severity": "配件问题",
+        "content": "我冒昧地向您发送一张我的相机照片，其支架在我第一次山地自行车出行时断裂了。我斗胆发送这张照片，以便贵公司的设计部门能够修改这个系统，因为它在骑行约15分钟后就坏了。",
+        "no": "5956",
+        "date": 1776652853000,
         "retest": ""
       }
     },

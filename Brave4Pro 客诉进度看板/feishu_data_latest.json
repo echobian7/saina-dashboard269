@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19 23:55:53",
+  "updated_at": "2026-04-20 07:30:17",
   "title": "Brave4Pro 客诉进度看板",
   "field_map": {
     "status": "状态",
@@ -2393,6 +2393,19 @@
         "content": "画面质量太差了，所以我想退货。",
         "no": "5906",
         "date": 1775807983000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvhjiU10tyyp",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "17-图像品质",
+        "severity": "产品问题",
+        "content": "在拍摄照片的设置中，即使在“非潜水模式”设置下，照片中也会出现严重的像素化和模糊的线条。",
+        "no": "5960",
+        "date": 1776666816000,
         "retest": ""
       }
     },
