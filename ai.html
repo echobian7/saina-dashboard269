@@ -342,37 +342,9 @@
         function showDetail(title, content) {
             document.getElementById('modalTitle').textContent = title;
 
-            // 根据候选人添加对应的下载链接
-            let downloadLinks = '';
-            if (title.includes('杨铠阳')) {
-                downloadLinks = `
-                    <div style="margin-top: 20px; padding: 15px; background: rgba(76, 175, 80, 0.1); border: 1px solid rgba(76, 175, 80, 0.3); border-radius: 8px;">
-                        <h4 style="color: #4caf50; margin-bottom: 10px;">📁 原始申请材料</h4>
-                        <a href="documents/杨铠阳_技术案例截图.png" download style="color: #4caf50; text-decoration: none; margin-right: 15px;">
-                            🖼️ 技术案例截图.png
-                        </a>
-                        <a href="documents/杨铠阳_代码实现.png" download style="color: #4caf50; text-decoration: none;">
-                            📄 代码实现截图.png
-                        </a>
-                    </div>
-                `;
-            } else if (title.includes('常君仪')) {
-                downloadLinks = `
-                    <div style="margin-top: 20px; padding: 15px; background: rgba(76, 175, 80, 0.1); border: 1px solid rgba(76, 175, 80, 0.3); border-radius: 8px;">
-                        <h4 style="color: #4caf50; margin-bottom: 10px;">📁 原始申请材料</h4>
-                        <a href="documents/常君仪_申请材料.pdf" download style="color: #4caf50; text-decoration: none; margin-right: 15px;">
-                            📄 申请材料.pdf
-                        </a>
-                        <a href="documents/常君仪_思维导图.png" download style="color: #4caf50; text-decoration: none;">
-                            🧠 思维导图.png
-                        </a>
-                    </div>
-                `;
-            }
 
             document.getElementById('modalBody').innerHTML = `
                 <div style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 8px; white-space: pre-line; line-height: 1.8;">${content}</div>
-                ${downloadLinks}
             `;
             document.getElementById('detailModal').style.display = 'block';
         }
