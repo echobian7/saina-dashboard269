@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20 23:07:53",
+  "updated_at": "2026-04-21 06:20:32",
   "title": "EK7000-V53客诉看板",
   "field_map": {
     "status": "状态",
@@ -253,6 +253,42 @@
         "content": "我从亚马逊购买了一台V50X相机，包裹于昨晚送达。今天早上我打开了相机包装，发现少了一块电池，我只有1块电池，而包装盒上的物品清单显示我的包裹里应该有2块电池。",
         "no": "5977",
         "date": 1776678929000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvhnQPOVjLuU",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "08-防水壳",
+        "content": "我想知道您能否帮我解决最近订单遇到的一个问题。我购买了一台Akaso brave7LE，防水壳的卡扣在首次使用前就坏了。请查看附件照片。相机的其他一切都非常好，功能也很正常。",
+        "no": "5979",
+        "date": 1776734008000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvhoK19BHc08",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "04-结构装配",
+        "content": "只用了一次，卡爪就裂了，SD卡取不出来了。",
+        "no": "5982",
+        "date": 1776747161000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvhoQ8j7NlqK",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "04-结构装配",
+        "content": "微型SD卡的盖子破损了。",
+        "no": "5983",
+        "date": 1776748618000,
         "retest": ""
       }
     }

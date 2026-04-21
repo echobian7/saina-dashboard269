@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20 23:06:56",
+  "updated_at": "2026-04-21 06:19:12",
   "title": "B7-19D客诉进度看板",
   "field_map": {
     "status": "状态",
@@ -433,6 +433,30 @@
         "content": "遥控器已经充满电了，但无法开机。",
         "no": "5968",
         "date": 1776672163000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvhoWLqSIL1u",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "09-配件",
+        "content": "只用了一次，卡爪就裂了，SD卡取不出来了。",
+        "no": "5982",
+        "date": 1776747161000,
+        "retest": ""
+      }
+    },
+    {
+      "record_id": "recvhoWLqSkKoF",
+      "fields": {
+        "status": "",
+        "level": "",
+        "category": "09-配件",
+        "content": "微型SD卡的盖子破损了。",
+        "no": "5983",
+        "date": 1776748618000,
         "retest": ""
       }
     }
