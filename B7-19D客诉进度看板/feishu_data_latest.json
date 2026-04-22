@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22 00:04:44",
+  "updated_at": "2026-04-22 10:50:02",
   "title": "B7-19D客诉进度看板",
   "field_map": {
     "status": "状态",
@@ -415,7 +415,7 @@
     {
       "record_id": "recvhk02n2vso3",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "",
         "category": "04-结构装配",
         "content": "我正在使用附带的Type-C数据线，但机身的接口松动，无法完全插到底。即使插上数据线也会晃动，充电与否取决于角度。将数据线插入电池充电器时会有咔嗒声，所以我认为问题不在数据线，而在机身一侧。由于可能是初始故障，我希望进行更换而非退货。如果可能的话，能否只更换机身？",
@@ -439,7 +439,7 @@
     {
       "record_id": "recvhoWLqSIL1u",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "",
         "category": "04-结构装配",
         "content": "只用了一次，卡爪就裂了，SD卡取不出来了。",
@@ -451,7 +451,7 @@
     {
       "record_id": "recvhoWLqSkKoF",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "",
         "category": "04-结构装配",
         "content": "微型SD卡的盖子破损了。",
