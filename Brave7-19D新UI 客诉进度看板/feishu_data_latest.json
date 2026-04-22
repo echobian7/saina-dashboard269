@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22 00:05:18",
+  "updated_at": "2026-04-22 10:50:32",
   "title": "Brave7-19D新UI 客诉进度看板",
   "field_map": {
     "status": "状态",
@@ -33,7 +33,7 @@
     {
       "record_id": "recvhjEA2jOxmh",
       "fields": {
-        "status": "",
+        "status": "已关闭",
         "level": "",
         "category": "04-结构装配",
         "severity": "配件问题",
@@ -46,7 +46,7 @@
     {
       "record_id": "recvhoK19BHc08",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "",
         "category": "04-结构装配",
         "severity": "产品问题",
@@ -59,7 +59,7 @@
     {
       "record_id": "recvhoQ8j7NlqK",
       "fields": {
-        "status": "",
+        "status": "评估中",
         "level": "",
         "category": "04-结构装配",
         "severity": "产品问题",
